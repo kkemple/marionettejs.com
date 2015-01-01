@@ -1,0 +1,425 @@
+<html>
+  <head>
+    <title>marionette.behaviors - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/docs.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select id="version-dropdown">
+          
+            
+              <option value="v2.3.0">v2.3.0</option>
+            
+          
+            
+              <option value="v2.3.0-pre">v2.3.0-pre</option>
+            
+          
+            
+              <option value="v2.2.2">v2.2.2</option>
+            
+          
+            
+              <option value="v2.2.1">v2.2.1</option>
+            
+          
+            
+              <option value="v2.2.0">v2.2.0</option>
+            
+          
+            
+              <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+            
+          
+            
+              <option value="v2.2.0-pre">v2.2.0-pre</option>
+            
+          
+            
+              <option value="v2.1.0">v2.1.0</option>
+            
+          
+            
+              <option value="v2.1.0-pre" selected="selected">v2.1.0-pre</option>
+            
+          
+            
+              <option value="v2.0.3">v2.0.3</option>
+            
+          
+            
+              <option value="v2.0.2">v2.0.2</option>
+            
+          
+            
+              <option value="v2.0.1">v2.0.1</option>
+            
+          
+            
+              <option value="v2.0.0">v2.0.0</option>
+            
+          
+            
+              <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+            
+          
+            
+              <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+            
+          
+            
+              <option value="v1.8.8">v1.8.8</option>
+            
+          
+            
+              <option value="v1.8.7">v1.8.7</option>
+            
+          
+            
+              <option value="v1.8.6">v1.8.6</option>
+            
+          
+            
+              <option value="v1.8.5">v1.8.5</option>
+            
+          
+            
+              <option value="v1.8.4">v1.8.4</option>
+            
+          
+            
+              <option value="v1.8.3">v1.8.3</option>
+            
+          
+            
+              <option value="v1.8.2">v1.8.2</option>
+            
+          
+            
+              <option value="v1.8.1">v1.8.1</option>
+            
+          
+            
+              <option value="v1.8.0">v1.8.0</option>
+            
+          
+            
+              <option value="v1.7.4">v1.7.4</option>
+            
+          
+            
+              <option value="v1.7.3">v1.7.3</option>
+            
+          
+            
+              <option value="v1.7.2">v1.7.2</option>
+            
+          
+            
+              <option value="v1.7.1">v1.7.1</option>
+            
+          
+            
+              <option value="v1.7.0">v1.7.0</option>
+            
+          
+            
+              <option value="v1.6.4">v1.6.4</option>
+            
+          
+            
+              <option value="v1.6.3">v1.6.3</option>
+            
+          
+            
+              <option value="v1.6.2">v1.6.2</option>
+            
+          
+            
+              <option value="v1.6.1">v1.6.1</option>
+            
+          
+            
+              <option value="v1.6.0">v1.6.0</option>
+            
+          
+            
+              <option value="v1.5.1">v1.5.1</option>
+            
+          
+            
+              <option value="v1.5.0">v1.5.0</option>
+            
+          
+            
+              <option value="v1.4.1">v1.4.1</option>
+            
+          
+            
+              <option value="v1.4.0">v1.4.0</option>
+            
+          
+            
+              <option value="v1.4.0-beta">v1.4.0-beta</option>
+            
+          
+            
+              <option value="v1.3.0">v1.3.0</option>
+            
+          
+            
+              <option value="v1.2.3">v1.2.3</option>
+            
+          
+            
+              <option value="v1.2.2">v1.2.2</option>
+            
+          
+            
+              <option value="v1.2.1">v1.2.1</option>
+            
+          
+            
+              <option value="v1.2.0">v1.2.0</option>
+            
+          
+            
+              <option value="v1.1.0">v1.1.0</option>
+            
+          
+            
+              <option value="v1.0.4">v1.0.4</option>
+            
+          
+            
+              <option value="v1.0.3">v1.0.3</option>
+            
+          
+            
+              <option value="v1.0.2">v1.0.2</option>
+            
+          
+            
+              <option value="v1.0.1">v1.0.1</option>
+            
+          
+            
+              <option value="v1.0.0">v1.0.0</option>
+            
+          
+            
+              <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+            
+          
+            
+              <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+            
+          
+            
+              <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+            
+          
+            
+              <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+            
+          
+            
+              <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+            
+          
+            
+              <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+            
+          
+            
+              <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+            
+          
+            
+              <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+            
+          
+            
+              <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+            
+          
+            
+              <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+            
+          
+            
+              <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+            
+          
+            
+              <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+            
+          
+            
+              <option value="v0.10.2">v0.10.2</option>
+            
+          
+            
+              <option value="v0.10.1">v0.10.1</option>
+            
+          
+            
+              <option value="v0.10.0">v0.10.0</option>
+            
+          
+            
+              <option value="v0.9.13">v0.9.13</option>
+            
+          
+            
+              <option value="v0.9.12">v0.9.12</option>
+            
+          
+            
+              <option value="v0.9.11">v0.9.11</option>
+            
+          
+            
+              <option value="v0.9.10">v0.9.10</option>
+            
+          
+            
+              <option value="v0.9.9">v0.9.9</option>
+            
+          
+            
+              <option value="v0.9.8">v0.9.8</option>
+            
+          
+            
+              <option value="v0.9.7">v0.9.7</option>
+            
+          
+            
+              <option value="v0.9.6">v0.9.6</option>
+            
+          
+            
+              <option value="v0.9.5">v0.9.5</option>
+            
+          
+            
+              <option value="v0.9.4">v0.9.4</option>
+            
+          
+            
+              <option value="v0.9.3">v0.9.3</option>
+            
+          
+            
+              <option value="v0.9.2">v0.9.2</option>
+            
+          
+            
+              <option value="v0.9.1">v0.9.1</option>
+            
+          
+            
+              <option value="v0.9.0">v0.9.0</option>
+            
+          
+        </select>
+        <nav>
+          
+            <a href="/docs/v2.1.0-pre/marionette.application.html">marionette.application</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.behavior.html">marionette.behavior</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.behaviors.html">marionette.behaviors</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.configuration.html">marionette.configuration</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.controller.html">marionette.controller</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.functions.html">marionette.functions</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.layoutview.html">marionette.layoutview</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.module.html">marionette.module</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.object.html">marionette.object</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.region.html">marionette.region</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.regionmanager.html">marionette.regionmanager</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="/docs/v2.1.0-pre/marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <h1><a name="marionette-behaviors" class="anchor" href="#marionette-behaviors"><span class="header-link"></span></a>Marionette.Behaviors</h1><p>&#39;Marionette.Behaviors&#39; is a utility class that takes care of glueing your <code>behavior</code> instances to their given <code>View</code>.<br>The most important part of this class is that you <strong>MUST</strong> override the class level <code>behaviorsLookup</code> method or set the option <code>behaviorClass</code> for things to work properly.</p>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#api">API</a><ul>
+<li><a href="#behaviorslookup">Behaviors Lookup</a></li>
+<li><a href="#getbehaviorclass">getBehaviorClass</a></li>
+<li><a href="#behaviorclass">behaviorClass</a></li>
+</ul>
+</li>
+</ul>
+<h2><a name="api" class="anchor" href="#api"><span class="header-link"></span></a>API</h2><p>There are two class level methods that you can override on the <code>Behaviors</code> class. The rest of the class is tied to under the hood implementation details of views.</p>
+<h3><a name="behaviorslookup" class="anchor" href="#behaviorslookup"><span class="header-link"></span></a>behaviorsLookup</h3><p>This method defines where your behavior classes are stored. A simple implementation might look something like this.</p>
+<pre><code class="lang-js">Marionette.Behaviors.behaviorsLookup = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-built_in">window</span>.Behaviors;
+}
+</code></pre>
+<p>By default the behaviors are looked up by their key value in a given views behavior hash.</p>
+<p>In this sample (using the default <code>getBehaviorClass</code> implementation) your code will expect the following behaviors to be present in <code>window.Behaviors.DestroyWarn</code> and <code>window.Behaviors.ToolTip</code></p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> MyView = Marionette.ItemView.extend({
+    behaviors: {
+        DestroyWarn: {
+            message: <span class="hljs-string">"you are destroying all your data is now gone!"</span>
+        },
+        ToolTip: {
+            text: <span class="hljs-string">"what a nice mouse you have"</span>
+        }
+    }
+});
+</code></pre>
+<h3><a name="getbehaviorclass" class="anchor" href="#getbehaviorclass"><span class="header-link"></span></a>getBehaviorClass</h3><p>This method has a default implementation that is simple to override. It is responsible for the lookup of single behavior from within the <code>Behaviors.behaviorsLookup</code> or elsewhere.</p>
+<pre><code class="lang-js">getBehaviorClass: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(options, key)</span> </span>{
+    <span class="hljs-keyword">if</span> (options.behaviorClass) {
+        <span class="hljs-keyword">return</span> options.behaviorClass;
+    }
+
+    <span class="hljs-keyword">return</span> Behaviors.behaviorsLookup[key];
+}
+</code></pre>
+<h3><a name="behaviorclass" class="anchor" href="#behaviorclass"><span class="header-link"></span></a>behaviorClass</h3><p>This property lets you pass a <code>class</code> in for the <code>behavior</code> to use (bypassing the normal key based lookup). This is nice to have when the behavior is a dependency of the view in <a href="http://requirejs.org/">requirejs</a>. Properties passed in this way will be used in <code>getBehaviorClass</code>.</p>
+<pre><code class="lang-js">define([<span class="hljs-string">'marionette'</span>, <span class="hljs-string">'lib/tooltip'</span>], <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(Marionette, Tooltip)</span> </span>{
+  <span class="hljs-keyword">var</span> View = Marionette.ItemView.extend({
+     behaviors: {
+        Tooltip: {
+          behaviorClass: Tooltip,
+          message: <span class="hljs-string">"hello world"</span>
+        }
+     }
+  });
+});
+</code></pre>
+
+      </div>
+    </div>
+  </body>
+  <script src="../../js/docs.js" type="text/javascript"></script>
+</html>

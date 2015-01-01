@@ -1,0 +1,613 @@
+<html>
+  <head>
+    <title>marionette.view - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/docs.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select id="version-dropdown">
+          
+            
+              <option value="v2.3.0">v2.3.0</option>
+            
+          
+            
+              <option value="v2.3.0-pre">v2.3.0-pre</option>
+            
+          
+            
+              <option value="v2.2.2">v2.2.2</option>
+            
+          
+            
+              <option value="v2.2.1">v2.2.1</option>
+            
+          
+            
+              <option value="v2.2.0">v2.2.0</option>
+            
+          
+            
+              <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+            
+          
+            
+              <option value="v2.2.0-pre">v2.2.0-pre</option>
+            
+          
+            
+              <option value="v2.1.0">v2.1.0</option>
+            
+          
+            
+              <option value="v2.1.0-pre">v2.1.0-pre</option>
+            
+          
+            
+              <option value="v2.0.3">v2.0.3</option>
+            
+          
+            
+              <option value="v2.0.2">v2.0.2</option>
+            
+          
+            
+              <option value="v2.0.1">v2.0.1</option>
+            
+          
+            
+              <option value="v2.0.0">v2.0.0</option>
+            
+          
+            
+              <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+            
+          
+            
+              <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+            
+          
+            
+              <option value="v1.8.8">v1.8.8</option>
+            
+          
+            
+              <option value="v1.8.7">v1.8.7</option>
+            
+          
+            
+              <option value="v1.8.6">v1.8.6</option>
+            
+          
+            
+              <option value="v1.8.5">v1.8.5</option>
+            
+          
+            
+              <option value="v1.8.4">v1.8.4</option>
+            
+          
+            
+              <option value="v1.8.3">v1.8.3</option>
+            
+          
+            
+              <option value="v1.8.2">v1.8.2</option>
+            
+          
+            
+              <option value="v1.8.1">v1.8.1</option>
+            
+          
+            
+              <option value="v1.8.0">v1.8.0</option>
+            
+          
+            
+              <option value="v1.7.4">v1.7.4</option>
+            
+          
+            
+              <option value="v1.7.3">v1.7.3</option>
+            
+          
+            
+              <option value="v1.7.2">v1.7.2</option>
+            
+          
+            
+              <option value="v1.7.1">v1.7.1</option>
+            
+          
+            
+              <option value="v1.7.0">v1.7.0</option>
+            
+          
+            
+              <option value="v1.6.4">v1.6.4</option>
+            
+          
+            
+              <option value="v1.6.3">v1.6.3</option>
+            
+          
+            
+              <option value="v1.6.2">v1.6.2</option>
+            
+          
+            
+              <option value="v1.6.1">v1.6.1</option>
+            
+          
+            
+              <option value="v1.6.0">v1.6.0</option>
+            
+          
+            
+              <option value="v1.5.1">v1.5.1</option>
+            
+          
+            
+              <option value="v1.5.0">v1.5.0</option>
+            
+          
+            
+              <option value="v1.4.1">v1.4.1</option>
+            
+          
+            
+              <option value="v1.4.0">v1.4.0</option>
+            
+          
+            
+              <option value="v1.4.0-beta">v1.4.0-beta</option>
+            
+          
+            
+              <option value="v1.3.0">v1.3.0</option>
+            
+          
+            
+              <option value="v1.2.3">v1.2.3</option>
+            
+          
+            
+              <option value="v1.2.2">v1.2.2</option>
+            
+          
+            
+              <option value="v1.2.1">v1.2.1</option>
+            
+          
+            
+              <option value="v1.2.0">v1.2.0</option>
+            
+          
+            
+              <option value="v1.1.0">v1.1.0</option>
+            
+          
+            
+              <option value="v1.0.4">v1.0.4</option>
+            
+          
+            
+              <option value="v1.0.3">v1.0.3</option>
+            
+          
+            
+              <option value="v1.0.2">v1.0.2</option>
+            
+          
+            
+              <option value="v1.0.1">v1.0.1</option>
+            
+          
+            
+              <option value="v1.0.0">v1.0.0</option>
+            
+          
+            
+              <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+            
+          
+            
+              <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+            
+          
+            
+              <option value="v1.0.0-rc4" selected="selected">v1.0.0-rc4</option>
+            
+          
+            
+              <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+            
+          
+            
+              <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+            
+          
+            
+              <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+            
+          
+            
+              <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+            
+          
+            
+              <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+            
+          
+            
+              <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+            
+          
+            
+              <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+            
+          
+            
+              <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+            
+          
+            
+              <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+            
+          
+            
+              <option value="v0.10.2">v0.10.2</option>
+            
+          
+            
+              <option value="v0.10.1">v0.10.1</option>
+            
+          
+            
+              <option value="v0.10.0">v0.10.0</option>
+            
+          
+            
+              <option value="v0.9.13">v0.9.13</option>
+            
+          
+            
+              <option value="v0.9.12">v0.9.12</option>
+            
+          
+            
+              <option value="v0.9.11">v0.9.11</option>
+            
+          
+            
+              <option value="v0.9.10">v0.9.10</option>
+            
+          
+            
+              <option value="v0.9.9">v0.9.9</option>
+            
+          
+            
+              <option value="v0.9.8">v0.9.8</option>
+            
+          
+            
+              <option value="v0.9.7">v0.9.7</option>
+            
+          
+            
+              <option value="v0.9.6">v0.9.6</option>
+            
+          
+            
+              <option value="v0.9.5">v0.9.5</option>
+            
+          
+            
+              <option value="v0.9.4">v0.9.4</option>
+            
+          
+            
+              <option value="v0.9.3">v0.9.3</option>
+            
+          
+            
+              <option value="v0.9.2">v0.9.2</option>
+            
+          
+            
+              <option value="v0.9.1">v0.9.1</option>
+            
+          
+            
+              <option value="v0.9.0">v0.9.0</option>
+            
+          
+        </select>
+        <nav>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.application.html">marionette.application</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.application.module.html">marionette.application.module</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.commands.html">marionette.commands</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.controller.html">marionette.controller</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.eventaggregator.html">marionette.eventaggregator</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.functions.html">marionette.functions</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.layout.html">marionette.layout</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.region.html">marionette.region</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.requestresponse.html">marionette.requestresponse</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="/docs/v1.0.0-rc4/marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <h1><a name="marionette-view" class="anchor" href="#marionette-view"><span class="header-link"></span></a>Marionette.View</h1><p>Marionette has a base <code>Marionette.View</code> type that other views extend from.<br>This base view provides some common and core functionality for<br>other views to take advantage of.</p>
+<p><strong>Note:</strong> The <code>Marionette.View</code> type is not intended to be<br>used directly. It exists as a base view for other view types<br>to be extended from, and to provide a common location for<br>behaviors that are shared across all views.</p>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#binding-to-view-events">Binding To View Events</a></li>
+<li><a href="#view-close">View close</a></li>
+<li><a href="#view-onbeforeclose">View onBeforeClose</a></li>
+<li><a href="#view-domrefresh--ondomrefresh-event">View &quot;dom:refresh&quot; / onDomRefresh event</a></li>
+<li><a href="#viewtriggers">View.triggers</a></li>
+<li><a href="#viewmodelevents-and-viewcollectionevents">View.modelEvents and View.collectionEvents</a></li>
+<li><a href="#viewserializedata">View.serializeData</a></li>
+<li><a href="#viewbinduielements">View.bindUIElements</a></li>
+<li><a href="#viewtemplatehelpers">View.templateHelpers</a><ul>
+<li><a href="#basic-example">Basic Example</a></li>
+<li><a href="#accessing-data-within-the-helpers">Accessing Data Within The Helpers</a></li>
+<li><a href="#object-or-function-as-templatehelpers">Object Or Function As <code>templateHelpers</code></a></li>
+</ul>
+</li>
+<li><a href="#change-which-template-is-rendered-for-a-view">Change Which Template Is Rendered For A View</a></li>
+</ul>
+<h2><a name="binding-to-view-events" class="anchor" href="#binding-to-view-events"><span class="header-link"></span></a>Binding To View Events</h2><p>Marionette.View extends <code>Marionette.BindTo</code>. It is recommended that you use<br>the <code>listenTo</code> method to bind model, collection, or other events from Backbone<br>and Marionette objects.</p>
+<pre><code class="lang-js">MyView = Backbone.Marionette.ItemView.extend({
+  initialize: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">this</span>.listenTo(<span class="hljs-keyword">this</span>.model, <span class="hljs-string">"change:foo"</span>, <span class="hljs-keyword">this</span>.modelChanged);
+    <span class="hljs-keyword">this</span>.listenTo(<span class="hljs-keyword">this</span>.collection, <span class="hljs-string">"add"</span>, <span class="hljs-keyword">this</span>.modelAdded);
+  },
+
+  modelChanged: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(model, value)</span></span>{
+  },
+
+  modelAdded: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(model)</span></span>{
+  }
+});
+</code></pre>
+<p>The context (<code>this</code>) will automatically be set to the view. You can<br>optionally set the context by passing in the context object as the<br>4th parameter of <code>listenTo</code>.</p>
+<h2><a name="view-close" class="anchor" href="#view-close"><span class="header-link"></span></a>View close</h2><p>View implements a <code>close</code> method, which is called by the region<br>managers automatically. As part of the implementation, the following<br>are performed:</p>
+<ul>
+<li>unbind all <code>listenTo</code> events</li>
+<li>unbind all custom view events</li>
+<li>unbind all DOM events</li>
+<li>remove <code>this.el</code> from the DOM</li>
+<li>call an <code>onBeforeClose</code> event on the view, if one is provided</li>
+<li>call an <code>onClose</code> event on the view, if one is provided</li>
+</ul>
+<p>By providing an <code>onClose</code> event in your view definition, you can<br>run custom code for your view that is fired after your view has been<br>closed and cleaned up. This lets you handle any additional clean up<br>code without having to override the <code>close</code> method.</p>
+<pre><code class="lang-js">Backbone.Marionette.ItemView.extend({
+  onClose: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// custom cleanup or closing code, here</span>
+  }
+});
+</code></pre>
+<h2><a name="view-onbeforeclose" class="anchor" href="#view-onbeforeclose"><span class="header-link"></span></a>View onBeforeClose</h2><p>When closing a view, an <code>onBeforeClose</code> method will be called, if it<br>has been provided. If this method returns <code>false</code>, the view will not<br>be closed. Any other return value (including null or undefined) will<br>allow the view to be closed.</p>
+<pre><code class="lang-js">MyView = Marionette.View.extend({
+
+  onBeforeClose: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// prevent the view from being closed</span>
+    <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>;
+  }
+
+});
+
+<span class="hljs-keyword">var</span> v = <span class="hljs-keyword">new</span> MyView();
+
+v.close(); <span class="hljs-comment">// view will remain open</span>
+</code></pre>
+<h3><a name="view-dom-refresh-ondomrefresh-event" class="anchor" href="#view-dom-refresh-ondomrefresh-event"><span class="header-link"></span></a>View &quot;dom:refresh&quot; / onDomRefresh event</h3><p>Triggered after the view has been rendered, has been shown in the DOM via a Marionette.Region, and has been<br>re-rendered.</p>
+<p>This event / callback is useful for<br><a href="http://lostechies.com/derickbailey/2012/02/20/using-jquery-plugins-and-ui-controls-with-backbone/">DOM-dependent UI plugins</a> such as<br><a href="http://jqueryui.com/">jQueryUI</a> or <a href="http://kendoui.com">KendoUI</a>.</p>
+<pre><code class="lang-js">Backbone.Marionette.ItemView.extend({
+  onDomRefresh: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// manipulate the `el` here. it's already</span>
+    <span class="hljs-comment">// been rendered, and is full of the view's</span>
+    <span class="hljs-comment">// HTML, ready to go.</span>
+  }
+});
+</code></pre>
+<p>For more information about integration Marionette w/ KendoUI (also applicable to jQueryUI and other UI<br>widget suites), see <a href="http://www.kendoui.com/blogs/teamblog/posts/12-11-26/backbone_and_kendo_ui_a_beautiful_combination.aspx">this blog post on KendoUI + Backbone</a>.</p>
+<h2><a name="view-triggers" class="anchor" href="#view-triggers"><span class="header-link"></span></a>View.triggers</h2><p>Views can define a set of <code>triggers</code> as a hash, which will<br>convert a DOM event into a <code>view.triggerMethod</code> call.</p>
+<p>The left side of the hash is a standard Backbone.View DOM<br>event configuration, while the right side of the hash is the<br>view event that you want to trigger from the view.</p>
+<pre><code class="lang-js">MyView = Backbone.Marionette.ItemView.extend({
+  <span class="hljs-comment">// ...</span>
+
+  triggers: {
+    <span class="hljs-string">"click .do-something"</span>: <span class="hljs-string">"something:do:it"</span>
+  }
+});
+
+view = <span class="hljs-keyword">new</span> MyView();
+view.render();
+
+view.on(<span class="hljs-string">"something:do:it"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(args)</span></span>{
+  alert(<span class="hljs-string">"I DID IT!"</span>);
+});
+
+<span class="hljs-comment">// "click" the 'do-something' DOM element to </span>
+<span class="hljs-comment">// demonstrate the DOM event conversion</span>
+view.$(<span class="hljs-string">".do-something"</span>).trigger(<span class="hljs-string">"click"</span>);
+</code></pre>
+<p>The result of this is an alert box that says, &quot;I DID IT!&quot;</p>
+<p>You can also specify the <code>triggers</code> as a function that<br>returns a hash of trigger configurations</p>
+<pre><code class="lang-js">Backbone.Marionette.CompositeView.extend({
+  triggers: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">return</span> {
+      <span class="hljs-string">"click .that-thing"</span>: <span class="hljs-string">"that:i:sent:you"</span>
+    };
+  }
+});
+</code></pre>
+<p>Triggers work with all View types that extend from the base<br>Marionette.View.</p>
+<h3><a name="trigger-handler-arguments" class="anchor" href="#trigger-handler-arguments"><span class="header-link"></span></a>Trigger Handler Arguments</h3><p>A <code>trigger</code> event handler will receive a single argument that<br>includes the following:</p>
+<ul>
+<li>view</li>
+<li>model</li>
+<li>collection</li>
+</ul>
+<p>These properties match the <code>view</code>, <code>model</code>, and <code>collection</code> properties of the view that triggered the event.</p>
+<pre><code class="lang-js">MyView = Backbone.Marionette.ItemView.extend({
+  <span class="hljs-comment">// ...</span>
+
+  triggers: {
+    <span class="hljs-string">"click .do-something"</span>: <span class="hljs-string">"some:event"</span>
+  }
+});
+
+view = <span class="hljs-keyword">new</span> MyView();
+
+view.on(<span class="hljs-string">"some:event"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(args)</span></span>{
+  args.view; <span class="hljs-comment">// =&gt; the view instance that triggered the event</span>
+  args.model; <span class="hljs-comment">// =&gt; the view.model, if one was set on the view</span>
+  args.collection; <span class="hljs-comment">// =&gt; the view.collection, if one was set on the view</span>
+});
+</code></pre>
+<p>Having access to these allows more flexibility in handling events from<br>multiple views. For example, a tab control or expand/collapse widget such<br>as a panel bar could trigger the same event from many different views<br>and be handled with a single function.</p>
+<h2><a name="view-modelevents-and-view-collectionevents" class="anchor" href="#view-modelevents-and-view-collectionevents"><span class="header-link"></span></a>View.modelEvents and View.collectionEvents</h2><p>Similar to the <code>events</code> hash, views can specify a configuration<br>hash for collections and models. The left side is the event on<br>the model or collection, and the right side is the name of the<br>method on the view.</p>
+<pre><code class="lang-js">Backbone.Marionette.CompositeView.extend({
+
+  modelEvents: {
+    <span class="hljs-string">"change:name"</span>: <span class="hljs-string">"nameChanged"</span> <span class="hljs-comment">// equivalent to view.listenTo(view.model, "change:name", view.nameChanged, view)</span>
+  },
+
+  collectionEvents: {
+    <span class="hljs-string">"add"</span>: <span class="hljs-string">"itemAdded"</span> <span class="hljs-comment">// equivalent to view.listenTo(view.collection, "add", collection.itemAdded, view)</span>
+  },
+
+  <span class="hljs-comment">// ... event handler methods</span>
+  nameChanged: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{ <span class="hljs-comment">/* ... */</span> },
+  itemAdded: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{ <span class="hljs-comment">/* ... */</span> },
+
+})
+</code></pre>
+<p>These will use the memory safe <code>listenTo</code>, and will set the context<br>(the value of <code>this</code>) in the handler to be the view. Events are<br>bound at the time of instantiation instantiation, and an exception will be thrown<br>if the handlers on the view do not exist.</p>
+<p>The <code>modelEvents</code> and <code>collectionEvents</code> will be bound and<br>unbound with the Backbone.View <code>delegateEvents</code> and <code>undelegateEvents</code><br>method calls. This allows the view to be re-used and have<br>the model and collection events re-bound.</p>
+<h3><a name="multiple-callbacks" class="anchor" href="#multiple-callbacks"><span class="header-link"></span></a>Multiple Callbacks</h3><p>Multiple callback functions can be specified by separating them with a<br>space. </p>
+<pre><code class="lang-js">Backbone.Marionette.CompositeView.extend({
+
+  modelEvents: {
+    <span class="hljs-string">"change:name"</span>: <span class="hljs-string">"nameChanged thatThing"</span>
+  },
+
+  nameChanged: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{ },
+
+  thatThing: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{ },
+});
+</code></pre>
+<p>This works in both <code>modelEvents</code> and <code>collectionEvents</code>.</p>
+<h3><a name="callbacks-as-function" class="anchor" href="#callbacks-as-function"><span class="header-link"></span></a>Callbacks As Function</h3><p>A single function can be declared directly in-line instead of specifying a<br>callback via a string method name.</p>
+<pre><code class="lang-js">Backbone.Marionette.CompositeView.extend({
+
+  modelEvents: {
+    <span class="hljs-string">"change:name"</span>: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-comment">// handle the name changed event here</span>
+    }
+  }
+
+});
+</code></pre>
+<p>This works for both <code>modelEvents</code> and <code>collectionEvents</code>.</p>
+<h3><a name="event-configuration-as-function" class="anchor" href="#event-configuration-as-function"><span class="header-link"></span></a>Event Configuration As Function</h3><p>A function can be used to declare the event configuration as long as<br>that function returns a hash that fits the above configuration options.</p>
+<pre><code class="lang-js">Backbone.Marionette.CompositeView.extend({
+
+  modelEvents: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">return</span> { <span class="hljs-string">"change:name"</span>: <span class="hljs-string">"someFunc"</span> };
+  }
+
+});
+</code></pre>
+<p>This works for both <code>modelEvents</code> and <code>collectionEvents</code>.</p>
+<h2><a name="view-serializedata" class="anchor" href="#view-serializedata"><span class="header-link"></span></a>View.serializeData</h2><p>The <code>serializeData</code> method will serialize a view&#39;s model or<br>collection - with precedence given to collections. That is,<br>if you have both a collection and a model in a view, calling<br>the <code>serializeData</code> method will return the serialized<br>collection.</p>
+<h2><a name="view-binduielements" class="anchor" href="#view-binduielements"><span class="header-link"></span></a>View.bindUIElements</h2><p>In several cases you need to access ui elements inside the view<br>to retrieve their data or manipulate them. For example you have a<br>certain div element you need to show/hide based on some state,<br>or other ui element that you wish to set a css class to it.<br>Instead of having jQuery selectors hanging around in the view&#39;s code<br>you can define a <code>ui</code> hash that contains a mapping between the<br>ui element&#39;s name and its jQuery selector. Afterwards you can simply<br>access it via <code>this.ui.elementName</code>.<br>See ItemView documentation for examples.</p>
+<p>This functionality is provided via the <code>bindUIElements</code> method.<br>Since View doesn&#39;t implement the render method, then if you directly extend<br>from View you will need to invoke this method from your render method.<br>In ItemView and CompositeView this is already taken care of.</p>
+<h2><a name="view-templatehelpers" class="anchor" href="#view-templatehelpers"><span class="header-link"></span></a>View.templateHelpers</h2><p>There are times when a view&#39;s template needs to have some<br>logic in it and the view engine itself will not provide an<br>easy way to accomplish this. For example, Underscore templates<br>do not provide a helper method mechanism while Handlebars<br>templates do.</p>
+<p>A <code>templateHelpers</code> attribute can be applied to any View object that<br>renders a template. When this attribute is present it&#39;s contents<br>will be mixed in to the data object that comes back from the<br><code>serializeData</code> method. This will allow you to create helper methods<br>that can be called from within your templates.</p>
+<h3><a name="basic-example" class="anchor" href="#basic-example"><span class="header-link"></span></a>Basic Example</h3><pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"my-template"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text/html"</span>&gt;</span><span class="javascript">
+  I think that &lt;%= showMessage() %&gt;
+</span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-js">MyView = Backbone.Marionette.ItemView.extend({
+  template: <span class="hljs-string">"#my-template"</span>,
+
+  templateHelpers: {
+    showMessage: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+      <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.name + <span class="hljs-string">" is the coolest!"</span>
+    }
+  }
+
+});
+
+model = <span class="hljs-keyword">new</span> Backbone.Model({name: <span class="hljs-string">"Backbone.Marionette"</span>});
+view = <span class="hljs-keyword">new</span> MyView({
+  model: model
+});
+
+view.render(); <span class="hljs-comment">//=&gt; "I think that Backbone.Marionette is the coolest!";</span>
+</code></pre>
+<h3><a name="accessing-data-within-the-helpers" class="anchor" href="#accessing-data-within-the-helpers"><span class="header-link"></span></a>Accessing Data Within The Helpers</h3><p>In order to access data from within the helper methods, you<br>need to prefix the data you need with <code>this</code>. Doing that will<br>give you all of the methods and attributes of the serialized<br>data object, including the other helper methods.</p>
+<pre><code class="lang-js">templateHelpers: {
+  something: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">return</span> <span class="hljs-string">"Do stuff with "</span> + <span class="hljs-keyword">this</span>.name + <span class="hljs-string">" because it's awesome."</span>;
+  }
+}
+</code></pre>
+<h3><a name="object-or-function-as-templatehelpers" class="anchor" href="#object-or-function-as-templatehelpers"><span class="header-link"></span></a>Object Or Function As <code>templateHelpers</code></h3><p>You can specify an object literal (as shown above), a reference<br>to an object literal, or a function as the <code>templateHelpers</code>. </p>
+<p>If you specify a function, the function will be invoked<br>with the current view instance as the context of the<br>function. The function must return an object that can be<br>mixed in to the data for the view.</p>
+<pre><code class="lang-js">Backbone.Marionette.ItemView.extend({
+  templateHelpers: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">return</span> {
+      foo: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{ <span class="hljs-comment">/* ... */</span> }
+    }
+  }
+});
+</code></pre>
+<h2><a name="change-which-template-is-rendered-for-a-view" class="anchor" href="#change-which-template-is-rendered-for-a-view"><span class="header-link"></span></a>Change Which Template Is Rendered For A View</h2><p>There may be some cases where you need to change the template that is<br>used for a view, based on some simple logic such as the value of a<br>specific attribute in the view&#39;s model. To do this, you can provide<br>a <code>getTemplate</code> function on your views and use this to return the<br>template that you need.</p>
+<pre><code class="lang-js">MyView = Backbone.Marionette.ItemView.extend({
+  getTemplate: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.model.get(<span class="hljs-string">"foo"</span>)){
+      <span class="hljs-keyword">return</span> <span class="hljs-string">"#some-template"</span>;
+    } <span class="hljs-keyword">else</span> {
+      <span class="hljs-keyword">return</span> <span class="hljs-string">"#a-different-template"</span>;
+    }
+  }
+});
+</code></pre>
+<p>This applies to all view types.</p>
+
+      </div>
+    </div>
+  </body>
+  <script src="../../js/docs.js" type="text/javascript"></script>
+</html>

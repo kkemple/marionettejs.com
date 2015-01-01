@@ -1,0 +1,398 @@
+<html>
+  <head>
+    <title>marionette.eventaggregator - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/docs.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select id="version-dropdown">
+          
+            
+              <option value="v2.3.0">v2.3.0</option>
+            
+          
+            
+              <option value="v2.3.0-pre">v2.3.0-pre</option>
+            
+          
+            
+              <option value="v2.2.2">v2.2.2</option>
+            
+          
+            
+              <option value="v2.2.1">v2.2.1</option>
+            
+          
+            
+              <option value="v2.2.0">v2.2.0</option>
+            
+          
+            
+              <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+            
+          
+            
+              <option value="v2.2.0-pre">v2.2.0-pre</option>
+            
+          
+            
+              <option value="v2.1.0">v2.1.0</option>
+            
+          
+            
+              <option value="v2.1.0-pre">v2.1.0-pre</option>
+            
+          
+            
+              <option value="v2.0.3">v2.0.3</option>
+            
+          
+            
+              <option value="v2.0.2">v2.0.2</option>
+            
+          
+            
+              <option value="v2.0.1">v2.0.1</option>
+            
+          
+            
+              <option value="v2.0.0">v2.0.0</option>
+            
+          
+            
+              <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+            
+          
+            
+              <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+            
+          
+            
+              <option value="v1.8.8">v1.8.8</option>
+            
+          
+            
+              <option value="v1.8.7">v1.8.7</option>
+            
+          
+            
+              <option value="v1.8.6">v1.8.6</option>
+            
+          
+            
+              <option value="v1.8.5">v1.8.5</option>
+            
+          
+            
+              <option value="v1.8.4">v1.8.4</option>
+            
+          
+            
+              <option value="v1.8.3">v1.8.3</option>
+            
+          
+            
+              <option value="v1.8.2">v1.8.2</option>
+            
+          
+            
+              <option value="v1.8.1">v1.8.1</option>
+            
+          
+            
+              <option value="v1.8.0">v1.8.0</option>
+            
+          
+            
+              <option value="v1.7.4">v1.7.4</option>
+            
+          
+            
+              <option value="v1.7.3">v1.7.3</option>
+            
+          
+            
+              <option value="v1.7.2">v1.7.2</option>
+            
+          
+            
+              <option value="v1.7.1">v1.7.1</option>
+            
+          
+            
+              <option value="v1.7.0">v1.7.0</option>
+            
+          
+            
+              <option value="v1.6.4">v1.6.4</option>
+            
+          
+            
+              <option value="v1.6.3">v1.6.3</option>
+            
+          
+            
+              <option value="v1.6.2">v1.6.2</option>
+            
+          
+            
+              <option value="v1.6.1">v1.6.1</option>
+            
+          
+            
+              <option value="v1.6.0">v1.6.0</option>
+            
+          
+            
+              <option value="v1.5.1">v1.5.1</option>
+            
+          
+            
+              <option value="v1.5.0">v1.5.0</option>
+            
+          
+            
+              <option value="v1.4.1">v1.4.1</option>
+            
+          
+            
+              <option value="v1.4.0">v1.4.0</option>
+            
+          
+            
+              <option value="v1.4.0-beta">v1.4.0-beta</option>
+            
+          
+            
+              <option value="v1.3.0">v1.3.0</option>
+            
+          
+            
+              <option value="v1.2.3">v1.2.3</option>
+            
+          
+            
+              <option value="v1.2.2">v1.2.2</option>
+            
+          
+            
+              <option value="v1.2.1">v1.2.1</option>
+            
+          
+            
+              <option value="v1.2.0">v1.2.0</option>
+            
+          
+            
+              <option value="v1.1.0">v1.1.0</option>
+            
+          
+            
+              <option value="v1.0.4">v1.0.4</option>
+            
+          
+            
+              <option value="v1.0.3">v1.0.3</option>
+            
+          
+            
+              <option value="v1.0.2">v1.0.2</option>
+            
+          
+            
+              <option value="v1.0.1">v1.0.1</option>
+            
+          
+            
+              <option value="v1.0.0">v1.0.0</option>
+            
+          
+            
+              <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+            
+          
+            
+              <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+            
+          
+            
+              <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+            
+          
+            
+              <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+            
+          
+            
+              <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+            
+          
+            
+              <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+            
+          
+            
+              <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+            
+          
+            
+              <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+            
+          
+            
+              <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+            
+          
+            
+              <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+            
+          
+            
+              <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+            
+          
+            
+              <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+            
+          
+            
+              <option value="v0.10.2">v0.10.2</option>
+            
+          
+            
+              <option value="v0.10.1">v0.10.1</option>
+            
+          
+            
+              <option value="v0.10.0">v0.10.0</option>
+            
+          
+            
+              <option value="v0.9.13">v0.9.13</option>
+            
+          
+            
+              <option value="v0.9.12">v0.9.12</option>
+            
+          
+            
+              <option value="v0.9.11">v0.9.11</option>
+            
+          
+            
+              <option value="v0.9.10">v0.9.10</option>
+            
+          
+            
+              <option value="v0.9.9">v0.9.9</option>
+            
+          
+            
+              <option value="v0.9.8">v0.9.8</option>
+            
+          
+            
+              <option value="v0.9.7">v0.9.7</option>
+            
+          
+            
+              <option value="v0.9.6" selected="selected">v0.9.6</option>
+            
+          
+            
+              <option value="v0.9.5">v0.9.5</option>
+            
+          
+            
+              <option value="v0.9.4">v0.9.4</option>
+            
+          
+            
+              <option value="v0.9.3">v0.9.3</option>
+            
+          
+            
+              <option value="v0.9.2">v0.9.2</option>
+            
+          
+            
+              <option value="v0.9.1">v0.9.1</option>
+            
+          
+            
+              <option value="v0.9.0">v0.9.0</option>
+            
+          
+        </select>
+        <nav>
+          
+            <a href="/docs/v0.9.6/marionette.application.html">marionette.application</a>
+          
+            <a href="/docs/v0.9.6/marionette.application.module.html">marionette.application.module</a>
+          
+            <a href="/docs/v0.9.6/marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="/docs/v0.9.6/marionette.async.html">marionette.async</a>
+          
+            <a href="/docs/v0.9.6/marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="/docs/v0.9.6/marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="/docs/v0.9.6/marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="/docs/v0.9.6/marionette.eventaggregator.html">marionette.eventaggregator</a>
+          
+            <a href="/docs/v0.9.6/marionette.eventbinder.html">marionette.eventbinder</a>
+          
+            <a href="/docs/v0.9.6/marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="/docs/v0.9.6/marionette.layout.html">marionette.layout</a>
+          
+            <a href="/docs/v0.9.6/marionette.region.html">marionette.region</a>
+          
+            <a href="/docs/v0.9.6/marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="/docs/v0.9.6/marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="/docs/v0.9.6/marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <h1><a name="marionette-eventaggregator" class="anchor" href="#marionette-eventaggregator"><span class="header-link"></span></a>Marionette.EventAggregator</h1><p>An event aggregator is an application level pub/sub mechanism that allows various<br>pieces of an otherwise segmented and disconnected system to communicate with<br>each other. </p>
+<h2><a name="basic-usage" class="anchor" href="#basic-usage"><span class="header-link"></span></a>Basic Usage</h2><p>Backbone.Marionette provides an event aggregator with each application instance:<br><code>MyApp.vent</code>. You can also instantiate your own event aggregator:</p>
+<pre><code class="lang-js">myVent = <span class="hljs-keyword">new</span> Backbone.Marionette.EventAggregator();
+</code></pre>
+<p>Passing an object literal of options to the constructor function will extend the<br>event aggregator with those options:</p>
+<pre><code class="lang-js">myVent = <span class="hljs-keyword">new</span> Backbone.Marionette.EventAggregator({foo: <span class="hljs-string">"bar"</span>});
+myVent.foo <span class="hljs-comment">// =&gt; "bar"</span>
+</code></pre>
+<h2><a name="bindto" class="anchor" href="#bindto"><span class="header-link"></span></a>BindTo</h2><p>The <code>EventAggregator</code> extends from the <code>BindTo</code> object (see below) to easily track<br>and unbind all event callbacks, including inline callback functions. </p>
+<p>The <code>bindTo</code> method, though, has been proxied to only take 3 arguments. It assumes<br>that the object being bound to is the event aggregator directly, and does not allow<br>the bound object to be specified:</p>
+<pre><code class="lang-js">vent = <span class="hljs-keyword">new</span> Backbone.Marionette.EventAggregator();
+
+vent.bindTo(<span class="hljs-string">"foo"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+  alert(<span class="hljs-string">"bar"</span>);
+});
+
+vent.unbindAll();
+
+vent.trigger(<span class="hljs-string">"foo"</span>); <span class="hljs-comment">// =&gt; nothing. all events have been unbound.</span>
+</code></pre>
+<h2><a name="decoupling-with-an-event-driven-architecture" class="anchor" href="#decoupling-with-an-event-driven-architecture"><span class="header-link"></span></a>Decoupling With An Event-Driven Architecture</h2><p>You can use an event aggregator to communicate between various modules of your<br>application, ensuring correct decoupling while also facilitating functionality<br>that needs more than one of your application&#39;s modules.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> vent = <span class="hljs-keyword">new</span> Backbone.Marionette.EventAggregator();
+
+vent.bind(<span class="hljs-string">"some:event"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+  alert(<span class="hljs-string">"Some event was fired!!!!"</span>);
+});
+
+vent.trigger(<span class="hljs-string">"some:event"</span>);
+</code></pre>
+<p>For a more detailed discussion and example of using an event aggregator with<br>Backbone applications, see the blog post: <a href="http://lostechies.com/derickbailey/2011/07/19/references-routing-and-the-event-aggregator-coordinating-views-in-backbone-js/">References, Routing, and The Event<br>Aggregator: Coordinating Views In Backbone.js</a></p>
+
+      </div>
+    </div>
+  </body>
+  <script src="../../js/docs.js" type="text/javascript"></script>
+</html>

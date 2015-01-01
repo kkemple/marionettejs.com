@@ -1,0 +1,441 @@
+<html>
+  <head>
+    <title>marionette.controller - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/docs.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select id="version-dropdown">
+          
+            
+              <option value="v2.3.0">v2.3.0</option>
+            
+          
+            
+              <option value="v2.3.0-pre">v2.3.0-pre</option>
+            
+          
+            
+              <option value="v2.2.2">v2.2.2</option>
+            
+          
+            
+              <option value="v2.2.1">v2.2.1</option>
+            
+          
+            
+              <option value="v2.2.0">v2.2.0</option>
+            
+          
+            
+              <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+            
+          
+            
+              <option value="v2.2.0-pre">v2.2.0-pre</option>
+            
+          
+            
+              <option value="v2.1.0">v2.1.0</option>
+            
+          
+            
+              <option value="v2.1.0-pre">v2.1.0-pre</option>
+            
+          
+            
+              <option value="v2.0.3" selected="selected">v2.0.3</option>
+            
+          
+            
+              <option value="v2.0.2">v2.0.2</option>
+            
+          
+            
+              <option value="v2.0.1">v2.0.1</option>
+            
+          
+            
+              <option value="v2.0.0">v2.0.0</option>
+            
+          
+            
+              <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+            
+          
+            
+              <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+            
+          
+            
+              <option value="v1.8.8">v1.8.8</option>
+            
+          
+            
+              <option value="v1.8.7">v1.8.7</option>
+            
+          
+            
+              <option value="v1.8.6">v1.8.6</option>
+            
+          
+            
+              <option value="v1.8.5">v1.8.5</option>
+            
+          
+            
+              <option value="v1.8.4">v1.8.4</option>
+            
+          
+            
+              <option value="v1.8.3">v1.8.3</option>
+            
+          
+            
+              <option value="v1.8.2">v1.8.2</option>
+            
+          
+            
+              <option value="v1.8.1">v1.8.1</option>
+            
+          
+            
+              <option value="v1.8.0">v1.8.0</option>
+            
+          
+            
+              <option value="v1.7.4">v1.7.4</option>
+            
+          
+            
+              <option value="v1.7.3">v1.7.3</option>
+            
+          
+            
+              <option value="v1.7.2">v1.7.2</option>
+            
+          
+            
+              <option value="v1.7.1">v1.7.1</option>
+            
+          
+            
+              <option value="v1.7.0">v1.7.0</option>
+            
+          
+            
+              <option value="v1.6.4">v1.6.4</option>
+            
+          
+            
+              <option value="v1.6.3">v1.6.3</option>
+            
+          
+            
+              <option value="v1.6.2">v1.6.2</option>
+            
+          
+            
+              <option value="v1.6.1">v1.6.1</option>
+            
+          
+            
+              <option value="v1.6.0">v1.6.0</option>
+            
+          
+            
+              <option value="v1.5.1">v1.5.1</option>
+            
+          
+            
+              <option value="v1.5.0">v1.5.0</option>
+            
+          
+            
+              <option value="v1.4.1">v1.4.1</option>
+            
+          
+            
+              <option value="v1.4.0">v1.4.0</option>
+            
+          
+            
+              <option value="v1.4.0-beta">v1.4.0-beta</option>
+            
+          
+            
+              <option value="v1.3.0">v1.3.0</option>
+            
+          
+            
+              <option value="v1.2.3">v1.2.3</option>
+            
+          
+            
+              <option value="v1.2.2">v1.2.2</option>
+            
+          
+            
+              <option value="v1.2.1">v1.2.1</option>
+            
+          
+            
+              <option value="v1.2.0">v1.2.0</option>
+            
+          
+            
+              <option value="v1.1.0">v1.1.0</option>
+            
+          
+            
+              <option value="v1.0.4">v1.0.4</option>
+            
+          
+            
+              <option value="v1.0.3">v1.0.3</option>
+            
+          
+            
+              <option value="v1.0.2">v1.0.2</option>
+            
+          
+            
+              <option value="v1.0.1">v1.0.1</option>
+            
+          
+            
+              <option value="v1.0.0">v1.0.0</option>
+            
+          
+            
+              <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+            
+          
+            
+              <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+            
+          
+            
+              <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+            
+          
+            
+              <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+            
+          
+            
+              <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+            
+          
+            
+              <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+            
+          
+            
+              <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+            
+          
+            
+              <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+            
+          
+            
+              <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+            
+          
+            
+              <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+            
+          
+            
+              <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+            
+          
+            
+              <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+            
+          
+            
+              <option value="v0.10.2">v0.10.2</option>
+            
+          
+            
+              <option value="v0.10.1">v0.10.1</option>
+            
+          
+            
+              <option value="v0.10.0">v0.10.0</option>
+            
+          
+            
+              <option value="v0.9.13">v0.9.13</option>
+            
+          
+            
+              <option value="v0.9.12">v0.9.12</option>
+            
+          
+            
+              <option value="v0.9.11">v0.9.11</option>
+            
+          
+            
+              <option value="v0.9.10">v0.9.10</option>
+            
+          
+            
+              <option value="v0.9.9">v0.9.9</option>
+            
+          
+            
+              <option value="v0.9.8">v0.9.8</option>
+            
+          
+            
+              <option value="v0.9.7">v0.9.7</option>
+            
+          
+            
+              <option value="v0.9.6">v0.9.6</option>
+            
+          
+            
+              <option value="v0.9.5">v0.9.5</option>
+            
+          
+            
+              <option value="v0.9.4">v0.9.4</option>
+            
+          
+            
+              <option value="v0.9.3">v0.9.3</option>
+            
+          
+            
+              <option value="v0.9.2">v0.9.2</option>
+            
+          
+            
+              <option value="v0.9.1">v0.9.1</option>
+            
+          
+            
+              <option value="v0.9.0">v0.9.0</option>
+            
+          
+        </select>
+        <nav>
+          
+            <a href="/docs/v2.0.3/marionette.application.html">marionette.application</a>
+          
+            <a href="/docs/v2.0.3/marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="/docs/v2.0.3/marionette.behavior.html">marionette.behavior</a>
+          
+            <a href="/docs/v2.0.3/marionette.behaviors.html">marionette.behaviors</a>
+          
+            <a href="/docs/v2.0.3/marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="/docs/v2.0.3/marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="/docs/v2.0.3/marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="/docs/v2.0.3/marionette.configuration.html">marionette.configuration</a>
+          
+            <a href="/docs/v2.0.3/marionette.controller.html">marionette.controller</a>
+          
+            <a href="/docs/v2.0.3/marionette.functions.html">marionette.functions</a>
+          
+            <a href="/docs/v2.0.3/marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="/docs/v2.0.3/marionette.layoutview.html">marionette.layoutview</a>
+          
+            <a href="/docs/v2.0.3/marionette.module.html">marionette.module</a>
+          
+            <a href="/docs/v2.0.3/marionette.region.html">marionette.region</a>
+          
+            <a href="/docs/v2.0.3/marionette.regionmanager.html">marionette.regionmanager</a>
+          
+            <a href="/docs/v2.0.3/marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="/docs/v2.0.3/marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="/docs/v2.0.3/marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <h1><a name="marionette-controller" class="anchor" href="#marionette-controller"><span class="header-link"></span></a>Marionette.Controller</h1><p>A Controller is a white-label Marionette Object. Its name can be a cause for<br>confusion, as it actually has nothing to do with the popular MVC architectural pattern.<br>Instead, it&#39;s better to think of the Controller as a base object from which you can build.</p>
+<p>Controllers should be used when you have a task that you would like an object to be responsible for,<br>but none of the other Marionette Classes quite make sense to do it. It&#39;s a base object for you to use to<br>create a new Class altogether.</p>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#basic-use">Basic Use</a></li>
+<li><a href="#destroying-a-controller">Destroying A Controller</a></li>
+<li><a href="#getoption">getOption</a></li>
+<li><a href="#on-the-name-controller">On The Name &#39;Controller&#39;</a></li>
+</ul>
+<h2><a name="basic-use" class="anchor" href="#basic-use"><span class="header-link"></span></a>Basic Use</h2><p>A <code>Marionette.Controller</code> can be extended, like other<br>Backbone and Marionette objects. It supports the standard<br><code>initialize</code> method, has a built-in <code>EventBinder</code>, and<br>can trigger events, itself.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// define a controller</span>
+<span class="hljs-keyword">var</span> MyController = Marionette.Controller.extend({
+
+  initialize: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(options)</span></span>{
+    <span class="hljs-keyword">this</span>.stuff = options.stuff;
+  },
+
+  doStuff: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">this</span>.trigger(<span class="hljs-string">"stuff:done"</span>, <span class="hljs-keyword">this</span>.stuff);
+  }
+
+});
+
+<span class="hljs-comment">// create an instance</span>
+<span class="hljs-keyword">var</span> c = <span class="hljs-keyword">new</span> MyController({
+  stuff: <span class="hljs-string">"some stuff"</span>
+});
+
+<span class="hljs-comment">// use the built in EventBinder</span>
+c.listenTo(c, <span class="hljs-string">"stuff:done"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(stuff)</span></span>{
+  <span class="hljs-built_in">console</span>.log(stuff);
+});
+
+<span class="hljs-comment">// do some stuff</span>
+c.doStuff();
+</code></pre>
+<h2><a name="getoption" class="anchor" href="#getoption"><span class="header-link"></span></a>getOption</h2><p>Retrieve an object&#39;s attribute either directly from the object, or from the object&#39;s this.options, with this.options taking precedence.</p>
+<p>More information <a href="./marionette.functions.md">getOption</a></p>
+<h2><a name="destroying-a-controller" class="anchor" href="#destroying-a-controller"><span class="header-link"></span></a>Destroying A Controller</h2><p>Each Controller instance has a built in <code>destroy</code> method that handles<br>unbinding all of the events that are directly attached to the controller<br>instance, as well as those that are bound using the EventBinder from<br>the controller.</p>
+<p>Invoking the <code>destroy</code> method will trigger the &quot;before:destroy&quot; and &quot;destroy&quot; events and the<br>corresponding <code>onBeforeDestory</code> and <code>onDestroy</code> method calls. These calls will be passed any arguments <code>destroy</code><br>was invoked with.</p>
+<pre><code class="lang-js"><span class="hljs-comment">// define a controller with an onDestroy method</span>
+<span class="hljs-keyword">var</span> MyController = Marionette.Controller.extend({
+
+  onBeforeDestroy: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(arg1, arg2)</span></span>{
+    <span class="hljs-comment">// put custom code here, before destroying this controller</span>
+  }
+
+  onDestroy: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(arg1, arg2)</span></span>{
+    <span class="hljs-comment">// put custom code here, to destroy this controller</span>
+  }
+
+});
+
+<span class="hljs-comment">// create a new controller instance</span>
+<span class="hljs-keyword">var</span> contr = <span class="hljs-keyword">new</span> MyController();
+
+<span class="hljs-comment">// add some event handlers</span>
+contr.on(<span class="hljs-string">"before:destroy"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(arg1, arg2)</span></span>{ ... });
+contr.on(<span class="hljs-string">"destroy"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(arg1, arg2)</span></span>{ ... });
+contr.listenTo(something, <span class="hljs-string">"bar"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{...});
+
+<span class="hljs-comment">// destroy the controller: unbind all of the</span>
+<span class="hljs-comment">// event handlers, trigger the "destroy" event and</span>
+<span class="hljs-comment">// call the onDestroy method</span>
+contr.destroy(arg1, arg2);
+</code></pre>
+<h2><a name="on-the-name-controller" class="anchor" href="#on-the-name-controller"><span class="header-link"></span></a>On The Name &#39;Controller&#39;</h2><p>The name <code>Controller</code> is bound to cause a bit of confusion, which is<br>rather unfortunate. There was some discussion and debate about what to<br>call this object, the idea that people would confuse this with an<br>MVC style controller came up a number of times. In the end, we decided<br>to call this a controller anyway--as the typical use case is to control<br>the workflow and process of an application and/or module.</p>
+<p>But the truth is, this is a very generic, multi-purpose object that can<br>serve many different roles, in many different scenarios. We are always open<br>to suggestions, with good reason and discussion, on renaming objects to<br>be more descriptive and less confusing. If you would like to suggest a<br>different name, please do so in either the mailing list or in the Github<br>Issues list.</p>
+
+      </div>
+    </div>
+  </body>
+  <script src="../../js/docs.js" type="text/javascript"></script>
+</html>

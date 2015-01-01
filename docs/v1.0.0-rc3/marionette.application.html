@@ -1,0 +1,482 @@
+<html>
+  <head>
+    <title>marionette.application - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/docs.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select id="version-dropdown">
+          
+            
+              <option value="v2.3.0">v2.3.0</option>
+            
+          
+            
+              <option value="v2.3.0-pre">v2.3.0-pre</option>
+            
+          
+            
+              <option value="v2.2.2">v2.2.2</option>
+            
+          
+            
+              <option value="v2.2.1">v2.2.1</option>
+            
+          
+            
+              <option value="v2.2.0">v2.2.0</option>
+            
+          
+            
+              <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+            
+          
+            
+              <option value="v2.2.0-pre">v2.2.0-pre</option>
+            
+          
+            
+              <option value="v2.1.0">v2.1.0</option>
+            
+          
+            
+              <option value="v2.1.0-pre">v2.1.0-pre</option>
+            
+          
+            
+              <option value="v2.0.3">v2.0.3</option>
+            
+          
+            
+              <option value="v2.0.2">v2.0.2</option>
+            
+          
+            
+              <option value="v2.0.1">v2.0.1</option>
+            
+          
+            
+              <option value="v2.0.0">v2.0.0</option>
+            
+          
+            
+              <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+            
+          
+            
+              <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+            
+          
+            
+              <option value="v1.8.8">v1.8.8</option>
+            
+          
+            
+              <option value="v1.8.7">v1.8.7</option>
+            
+          
+            
+              <option value="v1.8.6">v1.8.6</option>
+            
+          
+            
+              <option value="v1.8.5">v1.8.5</option>
+            
+          
+            
+              <option value="v1.8.4">v1.8.4</option>
+            
+          
+            
+              <option value="v1.8.3">v1.8.3</option>
+            
+          
+            
+              <option value="v1.8.2">v1.8.2</option>
+            
+          
+            
+              <option value="v1.8.1">v1.8.1</option>
+            
+          
+            
+              <option value="v1.8.0">v1.8.0</option>
+            
+          
+            
+              <option value="v1.7.4">v1.7.4</option>
+            
+          
+            
+              <option value="v1.7.3">v1.7.3</option>
+            
+          
+            
+              <option value="v1.7.2">v1.7.2</option>
+            
+          
+            
+              <option value="v1.7.1">v1.7.1</option>
+            
+          
+            
+              <option value="v1.7.0">v1.7.0</option>
+            
+          
+            
+              <option value="v1.6.4">v1.6.4</option>
+            
+          
+            
+              <option value="v1.6.3">v1.6.3</option>
+            
+          
+            
+              <option value="v1.6.2">v1.6.2</option>
+            
+          
+            
+              <option value="v1.6.1">v1.6.1</option>
+            
+          
+            
+              <option value="v1.6.0">v1.6.0</option>
+            
+          
+            
+              <option value="v1.5.1">v1.5.1</option>
+            
+          
+            
+              <option value="v1.5.0">v1.5.0</option>
+            
+          
+            
+              <option value="v1.4.1">v1.4.1</option>
+            
+          
+            
+              <option value="v1.4.0">v1.4.0</option>
+            
+          
+            
+              <option value="v1.4.0-beta">v1.4.0-beta</option>
+            
+          
+            
+              <option value="v1.3.0">v1.3.0</option>
+            
+          
+            
+              <option value="v1.2.3">v1.2.3</option>
+            
+          
+            
+              <option value="v1.2.2">v1.2.2</option>
+            
+          
+            
+              <option value="v1.2.1">v1.2.1</option>
+            
+          
+            
+              <option value="v1.2.0">v1.2.0</option>
+            
+          
+            
+              <option value="v1.1.0">v1.1.0</option>
+            
+          
+            
+              <option value="v1.0.4">v1.0.4</option>
+            
+          
+            
+              <option value="v1.0.3">v1.0.3</option>
+            
+          
+            
+              <option value="v1.0.2">v1.0.2</option>
+            
+          
+            
+              <option value="v1.0.1">v1.0.1</option>
+            
+          
+            
+              <option value="v1.0.0">v1.0.0</option>
+            
+          
+            
+              <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+            
+          
+            
+              <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+            
+          
+            
+              <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+            
+          
+            
+              <option value="v1.0.0-rc3" selected="selected">v1.0.0-rc3</option>
+            
+          
+            
+              <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+            
+          
+            
+              <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+            
+          
+            
+              <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+            
+          
+            
+              <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+            
+          
+            
+              <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+            
+          
+            
+              <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+            
+          
+            
+              <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+            
+          
+            
+              <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+            
+          
+            
+              <option value="v0.10.2">v0.10.2</option>
+            
+          
+            
+              <option value="v0.10.1">v0.10.1</option>
+            
+          
+            
+              <option value="v0.10.0">v0.10.0</option>
+            
+          
+            
+              <option value="v0.9.13">v0.9.13</option>
+            
+          
+            
+              <option value="v0.9.12">v0.9.12</option>
+            
+          
+            
+              <option value="v0.9.11">v0.9.11</option>
+            
+          
+            
+              <option value="v0.9.10">v0.9.10</option>
+            
+          
+            
+              <option value="v0.9.9">v0.9.9</option>
+            
+          
+            
+              <option value="v0.9.8">v0.9.8</option>
+            
+          
+            
+              <option value="v0.9.7">v0.9.7</option>
+            
+          
+            
+              <option value="v0.9.6">v0.9.6</option>
+            
+          
+            
+              <option value="v0.9.5">v0.9.5</option>
+            
+          
+            
+              <option value="v0.9.4">v0.9.4</option>
+            
+          
+            
+              <option value="v0.9.3">v0.9.3</option>
+            
+          
+            
+              <option value="v0.9.2">v0.9.2</option>
+            
+          
+            
+              <option value="v0.9.1">v0.9.1</option>
+            
+          
+            
+              <option value="v0.9.0">v0.9.0</option>
+            
+          
+        </select>
+        <nav>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.application.html">marionette.application</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.application.module.html">marionette.application.module</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.commands.html">marionette.commands</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.controller.html">marionette.controller</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.eventaggregator.html">marionette.eventaggregator</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.functions.html">marionette.functions</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.layout.html">marionette.layout</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.region.html">marionette.region</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.requestresponse.html">marionette.requestresponse</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="/docs/v1.0.0-rc3/marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <h1><a name="marionette-application" class="anchor" href="#marionette-application"><span class="header-link"></span></a>Marionette.Application</h1><p>The <code>Backbone.Marionette.Application</code> object is the hub of your composite<br>application. It organizes, initializes and coordinates the various pieces of your<br>app. It also provides a starting point for you to call into, from your HTML<br>script block or from your JavaScript files directly if you prefer to go that<br>route.</p>
+<p>The <code>Application</code> is meant to be instantiated directly, although you can extend<br>it to add your own functionality.</p>
+<pre><code class="lang-js">MyApp = <span class="hljs-keyword">new</span> Backbone.Marionette.Application();
+</code></pre>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#adding-initializers">Adding Initializers</a></li>
+<li><a href="#application-event">Application Event</a></li>
+<li><a href="#starting-an-application">Starting An Application</a></li>
+<li><a href="#appvent-event-aggregator">app.vent: Event Aggregator</a></li>
+<li><a href="#regions-and-the-application-object">Regions And The Application Object</a><ul>
+<li><a href="#jquery-selector">jQuery Selector</a></li>
+<li><a href="#custom-region-type">Custom Region Type</a></li>
+<li><a href="#custom-region-type-and-selector">Custom Region Type And Selector</a></li>
+<li><a href="#removing-regions">Removing Regions</a></li>
+</ul>
+</li>
+</ul>
+<h2><a name="adding-initializers" class="anchor" href="#adding-initializers"><span class="header-link"></span></a>Adding Initializers</h2><p>Your application needs to do useful things, like displaying content in your<br>regions, starting up your routers, and more. To accomplish these tasks and<br>ensure that your <code>Application</code> is fully configured, you can add initializer<br>callbacks to the application.</p>
+<pre><code class="lang-js">MyApp.addInitializer(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(options)</span></span>{
+  <span class="hljs-comment">// do useful stuff here</span>
+  <span class="hljs-keyword">var</span> myView = <span class="hljs-keyword">new</span> MyView({
+    model: options.someModel
+  });
+  MyApp.mainRegion.show(myView);
+});
+
+MyApp.addInitializer(<span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(options)</span></span>{
+  <span class="hljs-keyword">new</span> MyAppRouter();
+  Backbone.history.start();
+});
+</code></pre>
+<p>These callbacks will be executed when you start your application,<br>and are bound to the application object as the context for<br>the callback. In other words, <code>this</code> is the <code>MyApp</code> object, inside<br>of the initializer function.</p>
+<p>The <code>options</code> parameters is passed from the <code>start</code> method (see below).</p>
+<p>Initializer callbacks are guaranteed to run, no matter when you<br>add them to the app object. If you add them before the app is<br>started, they will run when the <code>start</code> method is called. If you<br>add them after the app is started, they will run immediately.</p>
+<h2><a name="application-event" class="anchor" href="#application-event"><span class="header-link"></span></a>Application Event</h2><p>The <code>Application</code> object raises a few events during its lifecycle, using the<br><a href="./marionette.functions.md">Marionette.triggerMethod</a> function. These events<br>can be used to do additional processing of your application. For example, you<br>may want to pre-process some data just before initialization happens. Or you may<br>want to wait until your entire application is initialized to start the<br><code>Backbone.history</code>.</p>
+<p>The events that are currently triggered, are:</p>
+<ul>
+<li><strong>&quot;initialize:before&quot; / <code>onInitializeBefore</code> </strong>: fired just before the initializers kick off</li>
+<li><strong>&quot;initialize:after&quot; / <code>onInitializeAfter</code> </strong>: fires just after the initializers have finished</li>
+<li><strong>&quot;start&quot; / <code>onStart</code></strong>: fires after all initializers and after the initializer events</li>
+</ul>
+<pre><code class="lang-js">MyApp.on(<span class="hljs-string">"initialize:before"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(options)</span></span>{
+  options.moreData = <span class="hljs-string">"Yo dawg, I heard you like options so I put some options in your options!"</span>
+});
+
+MyApp.on(<span class="hljs-string">"initialize:after"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(options)</span></span>{
+  <span class="hljs-keyword">if</span> (Backbone.history){
+    Backbone.history.start();
+  }
+});
+</code></pre>
+<p>The <code>options</code> parameter is passed through the <code>start</code> method of the application<br>object (see below).</p>
+<h2><a name="starting-an-application" class="anchor" href="#starting-an-application"><span class="header-link"></span></a>Starting An Application</h2><p>Once you have your application configured, you can kick everything off by<br>calling: <code>MyApp.start(options)</code>.</p>
+<p>This function takes a single optional parameter. This parameter will be passed<br>to each of your initializer functions, as well as the initialize events. This<br>allows you to provide extra configuration for various parts of your app, at<br>initialization/start of the app, instead of just at definition.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> options = {
+  something: <span class="hljs-string">"some value"</span>,
+  another: <span class="hljs-string">"#some-selector"</span>
+};
+
+MyApp.start(options);
+</code></pre>
+<h2><a name="app-vent-event-aggregator" class="anchor" href="#app-vent-event-aggregator"><span class="header-link"></span></a>app.vent: Event Aggregator</h2><p>Every application instance comes with an instance of <code>Marionette.EventAggregator</code><br>called <code>app.vent</code>.</p>
+<pre><code class="lang-js">MyApp = <span class="hljs-keyword">new</span> Backbone.Marionette.Application();
+
+MyApp.vent.on(<span class="hljs-string">"foo"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+  alert(<span class="hljs-string">"bar"</span>);
+});
+
+MyApp.vent.trigger(<span class="hljs-string">"foo"</span>); <span class="hljs-comment">// =&gt; alert box "bar"</span>
+</code></pre>
+<p>See the <a href="./marionette.eventaggregator.md"><code>Marionette.EventAggregator</code></a> documentation for more details.</p>
+<h2><a name="regions-and-the-application-object" class="anchor" href="#regions-and-the-application-object"><span class="header-link"></span></a>Regions And The Application Object</h2><p>Marionette&#39;s <code>Region</code> objects can be directly added to an application by<br>calling the <code>addRegions</code> method.</p>
+<p>There are three syntax forms for adding a region to an application object.</p>
+<h3><a name="jquery-selector" class="anchor" href="#jquery-selector"><span class="header-link"></span></a>jQuery Selector</h3><p>The first is to specify a jQuery selector as the value of the region<br>definition. This will create an instance of a Marionette.Region directly,<br>and assign it to the selector:</p>
+<pre><code class="lang-js">MyApp.addRegions({
+  someRegion: <span class="hljs-string">"#some-div"</span>,
+  anotherRegion: <span class="hljs-string">"#another-div"</span>
+});
+</code></pre>
+<h3><a name="custom-region-type" class="anchor" href="#custom-region-type"><span class="header-link"></span></a>Custom Region Type</h3><p>The second is to specify a custom region type, where the region type has<br>already specified a selector:</p>
+<pre><code class="lang-js">MyCustomRegion = Marionette.Region.extend({
+  el: <span class="hljs-string">"#foo"</span>
+});
+
+MyApp.addRegions({
+  someRegion: MyCustomRegion
+});
+</code></pre>
+<h3><a name="custom-region-type-and-selector" class="anchor" href="#custom-region-type-and-selector"><span class="header-link"></span></a>Custom Region Type And Selector</h3><p>The third method is to specify a custom region type, and a jQuery selector<br>for this region instance, using an object literal:</p>
+<pre><code class="lang-js">MyCustomRegion = Marionette.Region.extend({});
+
+MyApp.addRegions({
+
+  someRegion: {
+    selector: <span class="hljs-string">"#foo"</span>,
+    regionType: MyCustomRegion
+  },
+
+  anotherRegion: {
+    selector: <span class="hljs-string">"#bar"</span>,
+    regionType: MyCustomRegion
+  }
+
+});
+</code></pre>
+<h3><a name="removing-regions" class="anchor" href="#removing-regions"><span class="header-link"></span></a>Removing Regions</h3><p>Regions can also be removed with the <code>removeRegion</code> method, passing in<br>the name of the region to remove as a string value:</p>
+<pre><code class="lang-js">MyApp.removeRegion(<span class="hljs-string">'someRegion'</span>);
+</code></pre>
+<p>Removing a region will properly close it before removing it from the<br>application object.</p>
+<p>For more information on regions, see <a href="./marionette.region.md">the region documentation</a></p>
+
+      </div>
+    </div>
+  </body>
+  <script src="../../js/docs.js" type="text/javascript"></script>
+</html>

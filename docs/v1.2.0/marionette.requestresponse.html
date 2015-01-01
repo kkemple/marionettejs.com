@@ -1,0 +1,395 @@
+<html>
+  <head>
+    <title>marionette.requestresponse - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/docs.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select id="version-dropdown">
+          
+            
+              <option value="v2.3.0">v2.3.0</option>
+            
+          
+            
+              <option value="v2.3.0-pre">v2.3.0-pre</option>
+            
+          
+            
+              <option value="v2.2.2">v2.2.2</option>
+            
+          
+            
+              <option value="v2.2.1">v2.2.1</option>
+            
+          
+            
+              <option value="v2.2.0">v2.2.0</option>
+            
+          
+            
+              <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+            
+          
+            
+              <option value="v2.2.0-pre">v2.2.0-pre</option>
+            
+          
+            
+              <option value="v2.1.0">v2.1.0</option>
+            
+          
+            
+              <option value="v2.1.0-pre">v2.1.0-pre</option>
+            
+          
+            
+              <option value="v2.0.3">v2.0.3</option>
+            
+          
+            
+              <option value="v2.0.2">v2.0.2</option>
+            
+          
+            
+              <option value="v2.0.1">v2.0.1</option>
+            
+          
+            
+              <option value="v2.0.0">v2.0.0</option>
+            
+          
+            
+              <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+            
+          
+            
+              <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+            
+          
+            
+              <option value="v1.8.8">v1.8.8</option>
+            
+          
+            
+              <option value="v1.8.7">v1.8.7</option>
+            
+          
+            
+              <option value="v1.8.6">v1.8.6</option>
+            
+          
+            
+              <option value="v1.8.5">v1.8.5</option>
+            
+          
+            
+              <option value="v1.8.4">v1.8.4</option>
+            
+          
+            
+              <option value="v1.8.3">v1.8.3</option>
+            
+          
+            
+              <option value="v1.8.2">v1.8.2</option>
+            
+          
+            
+              <option value="v1.8.1">v1.8.1</option>
+            
+          
+            
+              <option value="v1.8.0">v1.8.0</option>
+            
+          
+            
+              <option value="v1.7.4">v1.7.4</option>
+            
+          
+            
+              <option value="v1.7.3">v1.7.3</option>
+            
+          
+            
+              <option value="v1.7.2">v1.7.2</option>
+            
+          
+            
+              <option value="v1.7.1">v1.7.1</option>
+            
+          
+            
+              <option value="v1.7.0">v1.7.0</option>
+            
+          
+            
+              <option value="v1.6.4">v1.6.4</option>
+            
+          
+            
+              <option value="v1.6.3">v1.6.3</option>
+            
+          
+            
+              <option value="v1.6.2">v1.6.2</option>
+            
+          
+            
+              <option value="v1.6.1">v1.6.1</option>
+            
+          
+            
+              <option value="v1.6.0">v1.6.0</option>
+            
+          
+            
+              <option value="v1.5.1">v1.5.1</option>
+            
+          
+            
+              <option value="v1.5.0">v1.5.0</option>
+            
+          
+            
+              <option value="v1.4.1">v1.4.1</option>
+            
+          
+            
+              <option value="v1.4.0">v1.4.0</option>
+            
+          
+            
+              <option value="v1.4.0-beta">v1.4.0-beta</option>
+            
+          
+            
+              <option value="v1.3.0">v1.3.0</option>
+            
+          
+            
+              <option value="v1.2.3">v1.2.3</option>
+            
+          
+            
+              <option value="v1.2.2">v1.2.2</option>
+            
+          
+            
+              <option value="v1.2.1">v1.2.1</option>
+            
+          
+            
+              <option value="v1.2.0" selected="selected">v1.2.0</option>
+            
+          
+            
+              <option value="v1.1.0">v1.1.0</option>
+            
+          
+            
+              <option value="v1.0.4">v1.0.4</option>
+            
+          
+            
+              <option value="v1.0.3">v1.0.3</option>
+            
+          
+            
+              <option value="v1.0.2">v1.0.2</option>
+            
+          
+            
+              <option value="v1.0.1">v1.0.1</option>
+            
+          
+            
+              <option value="v1.0.0">v1.0.0</option>
+            
+          
+            
+              <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+            
+          
+            
+              <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+            
+          
+            
+              <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+            
+          
+            
+              <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+            
+          
+            
+              <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+            
+          
+            
+              <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+            
+          
+            
+              <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+            
+          
+            
+              <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+            
+          
+            
+              <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+            
+          
+            
+              <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+            
+          
+            
+              <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+            
+          
+            
+              <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+            
+          
+            
+              <option value="v0.10.2">v0.10.2</option>
+            
+          
+            
+              <option value="v0.10.1">v0.10.1</option>
+            
+          
+            
+              <option value="v0.10.0">v0.10.0</option>
+            
+          
+            
+              <option value="v0.9.13">v0.9.13</option>
+            
+          
+            
+              <option value="v0.9.12">v0.9.12</option>
+            
+          
+            
+              <option value="v0.9.11">v0.9.11</option>
+            
+          
+            
+              <option value="v0.9.10">v0.9.10</option>
+            
+          
+            
+              <option value="v0.9.9">v0.9.9</option>
+            
+          
+            
+              <option value="v0.9.8">v0.9.8</option>
+            
+          
+            
+              <option value="v0.9.7">v0.9.7</option>
+            
+          
+            
+              <option value="v0.9.6">v0.9.6</option>
+            
+          
+            
+              <option value="v0.9.5">v0.9.5</option>
+            
+          
+            
+              <option value="v0.9.4">v0.9.4</option>
+            
+          
+            
+              <option value="v0.9.3">v0.9.3</option>
+            
+          
+            
+              <option value="v0.9.2">v0.9.2</option>
+            
+          
+            
+              <option value="v0.9.1">v0.9.1</option>
+            
+          
+            
+              <option value="v0.9.0">v0.9.0</option>
+            
+          
+        </select>
+        <nav>
+          
+            <a href="/docs/v1.2.0/marionette.application.html">marionette.application</a>
+          
+            <a href="/docs/v1.2.0/marionette.application.module.html">marionette.application.module</a>
+          
+            <a href="/docs/v1.2.0/marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="/docs/v1.2.0/marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="/docs/v1.2.0/marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="/docs/v1.2.0/marionette.commands.html">marionette.commands</a>
+          
+            <a href="/docs/v1.2.0/marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="/docs/v1.2.0/marionette.configuration.html">marionette.configuration</a>
+          
+            <a href="/docs/v1.2.0/marionette.controller.html">marionette.controller</a>
+          
+            <a href="/docs/v1.2.0/marionette.functions.html">marionette.functions</a>
+          
+            <a href="/docs/v1.2.0/marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="/docs/v1.2.0/marionette.layout.html">marionette.layout</a>
+          
+            <a href="/docs/v1.2.0/marionette.region.html">marionette.region</a>
+          
+            <a href="/docs/v1.2.0/marionette.regionmanager.html">marionette.regionmanager</a>
+          
+            <a href="/docs/v1.2.0/marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="/docs/v1.2.0/marionette.requestresponse.html">marionette.requestresponse</a>
+          
+            <a href="/docs/v1.2.0/marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="/docs/v1.2.0/marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <h1><a name="marionette-requestresponse" class="anchor" href="#marionette-requestresponse"><span class="header-link"></span></a>Marionette.RequestResponse</h1><p>An application level request/response system. This allows components in<br>an application to request some information or work be done by another<br>part of the app, but without having to be explicitly coupled to the<br>component that is performing the work.</p>
+<p>A return response is expected when making a request.</p>
+<p>Facilitated by <a href="https://github.com/marionettejs/backbone.wreqr">Backbone.Wreqr</a>&#39;s<br>RequestResponse object.</p>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#register-a-request-handler">Register A Request Handler</a></li>
+<li><a href="#request-a-response">Request A Response</a></li>
+<li><a href="#remove--replace-a-request-handler">Remove / Replace A Request Handler</a></li>
+</ul>
+<h2><a name="register-a-request-handler" class="anchor" href="#register-a-request-handler"><span class="header-link"></span></a>Register A Request Handler</h2><p>To register a command, call <code>App.reqres.setHandler</code> and provide a name for<br>the command to handle, and a callback method.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> App = <span class="hljs-keyword">new</span> Marionette.Application();
+
+App.reqres.setHandler(<span class="hljs-string">"foo"</span>, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(bar)</span></span>{
+  <span class="hljs-keyword">return</span> bar + <span class="hljs-string">"-quux"</span>;
+});
+</code></pre>
+<h2><a name="request-a-response" class="anchor" href="#request-a-response"><span class="header-link"></span></a>Request A Response</h2><p>To execute a command, either call <code>App.reqres.request</code> or the more direct<br>route of <code>App.request</code>, providing the name of the command to execute and<br>any parameters the command needs:</p>
+<pre><code class="lang-js">App.request(<span class="hljs-string">"foo"</span>, <span class="hljs-string">"baz"</span>); <span class="hljs-comment">// =&gt; returns "baz-quux"</span>
+</code></pre>
+<h2><a name="remove-replace-a-request-handler" class="anchor" href="#remove-replace-a-request-handler"><span class="header-link"></span></a>Remove / Replace A Request Handler</h2><p>To remove a request handler, call <code>App.reqres.removeHandler</code> and provide the<br>name of the request handler to remove. </p>
+<p>To remove all request handlers, call <code>App.reqres.removeAllHandlers()</code>.</p>
+<p>To replace a request handler, simply register a new handler for an existing<br>request handler name. There can be only one request handler<br>for a given request name.</p>
+
+      </div>
+    </div>
+  </body>
+  <script src="../../js/docs.js" type="text/javascript"></script>
+</html>

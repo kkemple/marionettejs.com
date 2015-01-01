@@ -1,0 +1,575 @@
+<html>
+  <head>
+    <title>marionette.itemview - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/docs.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select id="version-dropdown">
+          
+            
+              <option value="v2.3.0">v2.3.0</option>
+            
+          
+            
+              <option value="v2.3.0-pre">v2.3.0-pre</option>
+            
+          
+            
+              <option value="v2.2.2">v2.2.2</option>
+            
+          
+            
+              <option value="v2.2.1">v2.2.1</option>
+            
+          
+            
+              <option value="v2.2.0">v2.2.0</option>
+            
+          
+            
+              <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+            
+          
+            
+              <option value="v2.2.0-pre" selected="selected">v2.2.0-pre</option>
+            
+          
+            
+              <option value="v2.1.0">v2.1.0</option>
+            
+          
+            
+              <option value="v2.1.0-pre">v2.1.0-pre</option>
+            
+          
+            
+              <option value="v2.0.3">v2.0.3</option>
+            
+          
+            
+              <option value="v2.0.2">v2.0.2</option>
+            
+          
+            
+              <option value="v2.0.1">v2.0.1</option>
+            
+          
+            
+              <option value="v2.0.0">v2.0.0</option>
+            
+          
+            
+              <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+            
+          
+            
+              <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+            
+          
+            
+              <option value="v1.8.8">v1.8.8</option>
+            
+          
+            
+              <option value="v1.8.7">v1.8.7</option>
+            
+          
+            
+              <option value="v1.8.6">v1.8.6</option>
+            
+          
+            
+              <option value="v1.8.5">v1.8.5</option>
+            
+          
+            
+              <option value="v1.8.4">v1.8.4</option>
+            
+          
+            
+              <option value="v1.8.3">v1.8.3</option>
+            
+          
+            
+              <option value="v1.8.2">v1.8.2</option>
+            
+          
+            
+              <option value="v1.8.1">v1.8.1</option>
+            
+          
+            
+              <option value="v1.8.0">v1.8.0</option>
+            
+          
+            
+              <option value="v1.7.4">v1.7.4</option>
+            
+          
+            
+              <option value="v1.7.3">v1.7.3</option>
+            
+          
+            
+              <option value="v1.7.2">v1.7.2</option>
+            
+          
+            
+              <option value="v1.7.1">v1.7.1</option>
+            
+          
+            
+              <option value="v1.7.0">v1.7.0</option>
+            
+          
+            
+              <option value="v1.6.4">v1.6.4</option>
+            
+          
+            
+              <option value="v1.6.3">v1.6.3</option>
+            
+          
+            
+              <option value="v1.6.2">v1.6.2</option>
+            
+          
+            
+              <option value="v1.6.1">v1.6.1</option>
+            
+          
+            
+              <option value="v1.6.0">v1.6.0</option>
+            
+          
+            
+              <option value="v1.5.1">v1.5.1</option>
+            
+          
+            
+              <option value="v1.5.0">v1.5.0</option>
+            
+          
+            
+              <option value="v1.4.1">v1.4.1</option>
+            
+          
+            
+              <option value="v1.4.0">v1.4.0</option>
+            
+          
+            
+              <option value="v1.4.0-beta">v1.4.0-beta</option>
+            
+          
+            
+              <option value="v1.3.0">v1.3.0</option>
+            
+          
+            
+              <option value="v1.2.3">v1.2.3</option>
+            
+          
+            
+              <option value="v1.2.2">v1.2.2</option>
+            
+          
+            
+              <option value="v1.2.1">v1.2.1</option>
+            
+          
+            
+              <option value="v1.2.0">v1.2.0</option>
+            
+          
+            
+              <option value="v1.1.0">v1.1.0</option>
+            
+          
+            
+              <option value="v1.0.4">v1.0.4</option>
+            
+          
+            
+              <option value="v1.0.3">v1.0.3</option>
+            
+          
+            
+              <option value="v1.0.2">v1.0.2</option>
+            
+          
+            
+              <option value="v1.0.1">v1.0.1</option>
+            
+          
+            
+              <option value="v1.0.0">v1.0.0</option>
+            
+          
+            
+              <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+            
+          
+            
+              <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+            
+          
+            
+              <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+            
+          
+            
+              <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+            
+          
+            
+              <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+            
+          
+            
+              <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+            
+          
+            
+              <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+            
+          
+            
+              <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+            
+          
+            
+              <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+            
+          
+            
+              <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+            
+          
+            
+              <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+            
+          
+            
+              <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+            
+          
+            
+              <option value="v0.10.2">v0.10.2</option>
+            
+          
+            
+              <option value="v0.10.1">v0.10.1</option>
+            
+          
+            
+              <option value="v0.10.0">v0.10.0</option>
+            
+          
+            
+              <option value="v0.9.13">v0.9.13</option>
+            
+          
+            
+              <option value="v0.9.12">v0.9.12</option>
+            
+          
+            
+              <option value="v0.9.11">v0.9.11</option>
+            
+          
+            
+              <option value="v0.9.10">v0.9.10</option>
+            
+          
+            
+              <option value="v0.9.9">v0.9.9</option>
+            
+          
+            
+              <option value="v0.9.8">v0.9.8</option>
+            
+          
+            
+              <option value="v0.9.7">v0.9.7</option>
+            
+          
+            
+              <option value="v0.9.6">v0.9.6</option>
+            
+          
+            
+              <option value="v0.9.5">v0.9.5</option>
+            
+          
+            
+              <option value="v0.9.4">v0.9.4</option>
+            
+          
+            
+              <option value="v0.9.3">v0.9.3</option>
+            
+          
+            
+              <option value="v0.9.2">v0.9.2</option>
+            
+          
+            
+              <option value="v0.9.1">v0.9.1</option>
+            
+          
+            
+              <option value="v0.9.0">v0.9.0</option>
+            
+          
+        </select>
+        <nav>
+          
+            <a href="/docs/v2.2.0-pre/marionette.application.html">marionette.application</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.behavior.html">marionette.behavior</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.behaviors.html">marionette.behaviors</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.configuration.html">marionette.configuration</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.controller.html">marionette.controller</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.functions.html">marionette.functions</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.layoutview.html">marionette.layoutview</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.module.html">marionette.module</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.object.html">marionette.object</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.region.html">marionette.region</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.regionmanager.html">marionette.regionmanager</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="/docs/v2.2.0-pre/marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <h1><a name="marionette-itemview" class="anchor" href="#marionette-itemview"><span class="header-link"></span></a>Marionette.ItemView</h1><p>An <code>ItemView</code> is a view that represents a single item. That item may be a<br><code>Backbone.Model</code> or may be a <code>Backbone.Collection</code>. Whichever it is though, it<br>will be treated as a single item.</p>
+<p>ItemView extends directly from Marionette.View. Please see<br><a href="marionette.view.md">the Marionette.View documentation</a><br>for more information on available features and functionality.</p>
+<p>Additionally, interactions with Marionette.Region<br>will provide features such as <code>onShow</code> callbacks, etc. Please see<br><a href="marionette.region.md">the Region documentation</a> for more information.</p>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#itemview-render">ItemView render</a></li>
+<li><a href="#rendering-a-collection-in-an-itemview">Rendering A Collection In An ItemView</a></li>
+<li><a href="#template-less-itemview">Template-less ItemView</a></li>
+<li><a href="#events-and-callback-methods">Events and Callback Methods</a><ul>
+<li><a href="#beforerender--onbeforerender-event">&quot;before:render&quot; / onBeforeRender event</a></li>
+<li><a href="#render--onrender-event">&quot;render&quot; / onRender event</a></li>
+<li><a href="#beforedestroy--onbeforedestroy-event">&quot;before:destroy&quot; / onBeforeDestroy event</a></li>
+<li><a href="#destroy--ondestroy-event">&quot;destroy&quot; / onDestroy event</a></li>
+</ul>
+</li>
+<li><a href="#itemview-serializedata">ItemView serializeData</a></li>
+<li><a href="#organizing-ui-elements">Organizing ui elements</a></li>
+<li><a href="#modelevents-and-collectionevents">modelEvents and collectionEvents</a></li>
+</ul>
+<h2><a name="itemview-render" class="anchor" href="#itemview-render"><span class="header-link"></span></a>ItemView render</h2><p>An item view has a <code>render</code> method built in to it, and uses the<br><code>Renderer</code> object to do the actual rendering.</p>
+<p>The item view instance is passed as the third argument to the<br><code>Renderer</code> object&#39;s <code>render</code> method, which is useful in custom<br><code>Renderer</code> implementations.</p>
+<p>You should provide a <code>template</code> attribute on the item view, which<br>will be either a jQuery selector:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> MyView = Backbone.Marionette.ItemView.extend({
+  template: <span class="hljs-string">"#some-template"</span>
+});
+
+<span class="hljs-keyword">new</span> MyView().render();
+</code></pre>
+<p>.. or a function taking a single argument: the object returned by <a href="#itemview-serializedata">ItemView.serializeData</a>:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> my_template_html = <span class="hljs-string">'&lt;div&gt;&lt;%= args.name %&gt;&lt;/div&gt;'</span>
+<span class="hljs-keyword">var</span> MyView = Backbone.Marionette.ItemView.extend({
+  template : <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(serialized_model)</span> </span>{
+    <span class="hljs-keyword">var</span> name = serialized_model.name;
+    <span class="hljs-keyword">return</span> _.template(my_template_html, {
+        name : name,
+        some_custom_attribute : some_custom_key
+    }, {variable: <span class="hljs-string">'args'</span>});
+  }
+});
+
+<span class="hljs-keyword">new</span> MyView().render();
+</code></pre>
+<p>Note that using a template function allows passing custom arguments into the _.template function,<br>including a third &quot;settings&quot; argument, as used in the example above.</p>
+<p>According to the <a href="http://underscorejs.org/#template">Underscore docs</a>, using the &quot;variable&quot; setting<br>&quot;can significantly improve the speed at which a template is able to render.&quot; Using this setting<br>also requires you to read data arguments from an object, as demonstrated in the example above.</p>
+<h2><a name="rendering-a-collection-in-an-itemview" class="anchor" href="#rendering-a-collection-in-an-itemview"><span class="header-link"></span></a>Rendering A Collection In An ItemView</h2><p>While the most common way to render a Backbone.Collection is to use<br>a <code>CollectionView</code> or <code>CompositeView</code>, if you just need to render a<br>simple list that does not need a lot of interaction, it does not<br>always make sense to use these. A Backbone.Collection can be<br>rendered with a simple ItemView, using the templates to iterate<br>over an <code>items</code> array.</p>
+<pre><code class="lang-js">&lt;script id=<span class="hljs-string">"some-template"</span> type=<span class="hljs-string">"text/html"</span>&gt;
+  <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">ul</span>&gt;</span>
+    <span class="vbscript">&lt;% _.<span class="hljs-keyword">each</span>(items, <span class="hljs-keyword">function</span>(item){ %&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">li</span>&gt;</span> <span class="vbscript">&lt;%= item.someAttribute %&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-title">li</span>&gt;</span>
+    <span class="vbscript">&lt;% }); %&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span></span>
+</code></pre>
+<p>The important thing to note here, is the use of <code>items</code> as the<br>variable to iterate in the <code>_.each</code> call. This will always be the<br>name of the variable that contains your collection&#39;s items.</p>
+<p>Then, from JavaScript, you can define and use an ItemView with this<br>template, like this:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> MyItemsView = Marionette.ItemView.extend({
+  template: <span class="hljs-string">"#some-template"</span>
+});
+
+<span class="hljs-keyword">var</span> view = <span class="hljs-keyword">new</span> MyItemsView({
+  collection: someCollection
+});
+
+<span class="hljs-comment">// show the view via a region or calling the .render method directly</span>
+</code></pre>
+<p>Rendering this view will convert the <code>someCollection</code> collection in to<br>the <code>items</code> array for your template to use.</p>
+<p>For more information on when you would want to do this, and what options<br>you have for retrieving an individual item that was clicked or<br>otherwise interacted with, see the blog post on<br><a href="http://lostechies.com/derickbailey/2011/10/11/backbone-js-getting-the-model-for-a-clicked-element/">Getting The Model For A Clicked Element</a>.</p>
+<h2><a name="template-less-itemview" class="anchor" href="#template-less-itemview"><span class="header-link"></span></a>Template-less ItemView</h2><p>An <code>ItemView</code> can be attached to existing elements as well. The primary benefit of this is to attach behavior and events to static content that has been rendered by your server (typically for SEO purposes). To set up a template-less <code>ItemView</code>, your <code>template</code> attribute must be <code>false</code>.</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"my-element"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">p</span>&gt;</span>Hello World<span class="hljs-tag">&lt;/<span class="hljs-title">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">button</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"my-button"</span>&gt;</span>Click Me<span class="hljs-tag">&lt;/<span class="hljs-title">button</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> MyView = Marionette.ItemView.extend({
+  el: <span class="hljs-string">'#my-element'</span>,
+
+  template: <span class="hljs-literal">false</span>,
+
+  ui: {
+    paragraph: <span class="hljs-string">'p'</span>,
+    button: <span class="hljs-string">'.my-button'</span>
+  },
+
+  events: {
+    <span class="hljs-string">'click @ui.button'</span>: <span class="hljs-string">'clickedButton'</span>
+  },
+
+  clickedButton: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">'I clicked the button!'</span>);
+  }
+});
+
+<span class="hljs-keyword">var</span> view = <span class="hljs-keyword">new</span> MyView();
+view.render();
+
+view.ui.paragraph.text();        <span class="hljs-comment">// returns 'Hello World'</span>
+view.ui.button.trigger(<span class="hljs-string">'click'</span>); <span class="hljs-comment">// logs 'I clicked the button!'</span>
+</code></pre>
+<p>Another use case is when you want to attach a <code>Marionette.ItemView</code> to a SVG graphic or canvas element, to provide a uniform view layer interface to non-standard DOM nodes. By not having a template this allows you to also use a view on pre-rendered DOM nodes, such as complex graphic elements.</p>
+<h2><a name="events-and-callback-methods" class="anchor" href="#events-and-callback-methods"><span class="header-link"></span></a>Events and Callback Methods</h2><p>There are several events and callback methods that are called<br>for an ItemView. These events and methods are triggered with the<br><a href="./marionette.functions.md">Marionette.triggerMethod</a> function, which<br>triggers the event and a corresponding &quot;on{EventName}&quot; method.</p>
+<h3><a name="-before-render-onbeforerender-event" class="anchor" href="#-before-render-onbeforerender-event"><span class="header-link"></span></a>&quot;before:render&quot; / onBeforeRender event</h3><p>Triggered before an ItemView is rendered.</p>
+<pre><code class="lang-js">Backbone.Marionette.ItemView.extend({
+  onBeforeRender: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// set up final bits just before rendering the view's `el`</span>
+  }
+});
+</code></pre>
+<h3><a name="-render-onrender-event" class="anchor" href="#-render-onrender-event"><span class="header-link"></span></a>&quot;render&quot; / onRender event</h3><p>Triggered after the view has been rendered.<br>You can implement this in your view to provide custom code for dealing<br>with the view&#39;s <code>el</code> after it has been rendered.</p>
+<pre><code class="lang-js">Backbone.Marionette.ItemView.extend({
+  onRender: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// manipulate the `el` here. it's already</span>
+    <span class="hljs-comment">// been rendered, and is full of the view's</span>
+    <span class="hljs-comment">// HTML, ready to go.</span>
+  }
+});
+</code></pre>
+<h3><a name="-before-destroy-onbeforedestroy-event" class="anchor" href="#-before-destroy-onbeforedestroy-event"><span class="header-link"></span></a>&quot;before:destroy&quot; / onBeforeDestroy event</h3><p>Triggered just prior to destroying the view, when the view&#39;s <code>destroy()</code><br>method has been called.</p>
+<pre><code class="lang-js">Backbone.Marionette.ItemView.extend({
+  onBeforeDestroy: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// manipulate the `el` here. it's already</span>
+    <span class="hljs-comment">// been rendered, and is full of the view's</span>
+    <span class="hljs-comment">// HTML, ready to go.</span>
+  }
+});
+</code></pre>
+<h3><a name="-destroy-ondestroy-event" class="anchor" href="#-destroy-ondestroy-event"><span class="header-link"></span></a>&quot;destroy&quot; / onDestroy event</h3><p>Triggered just after the view has been destroyed.</p>
+<pre><code class="lang-js">Backbone.Marionette.ItemView.extend({
+  onDestroy: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-comment">// custom destroying and cleanup goes here</span>
+  }
+});
+</code></pre>
+<h2><a name="itemview-serializedata" class="anchor" href="#itemview-serializedata"><span class="header-link"></span></a>ItemView serializeData</h2><p>Item views will serialize a model or collection, by default, by<br>calling <code>.toJSON</code> on either the model or collection. If both a model<br>and collection are attached to an item view, the model will be used<br>as the data source. The results of the data serialization will be passed to the template<br>that is rendered.</p>
+<p>If the serialization is a model, the results are passed in directly:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> myModel = <span class="hljs-keyword">new</span> MyModel({foo: <span class="hljs-string">"bar"</span>});
+
+<span class="hljs-keyword">new</span> MyItemView({
+  template: <span class="hljs-string">"#myItemTemplate"</span>,
+  model: myModel
+});
+
+MyItemView.render();
+</code></pre>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"myItemTemplate"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"template"</span>&gt;</span><span class="javascript">
+  Foo is: <span class="xml"><span class="vbscript">&lt;%= foo %&gt;</span>
+</span></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+<p>If the serialization is a collection, the results are passed in as an<br><code>items</code> array:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> myCollection = <span class="hljs-keyword">new</span> MyCollection([{foo: <span class="hljs-string">"bar"</span>}, {foo: <span class="hljs-string">"baz"</span>}]);
+
+<span class="hljs-keyword">new</span> MyItemView({
+  template: <span class="hljs-string">"#myCollectionTemplate"</span>,
+  collection: myCollection
+});
+
+MyItemView.render();
+</code></pre>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"myCollectionTemplate"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"template"</span>&gt;</span><span class="javascript">
+  &lt;% _.each(items, <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(item)</span></span>{ %&gt;
+    Foo is: <span class="xml"><span class="vbscript">&lt;%= foo %&gt;</span>
+  <span class="vbscript">&lt;% }); %&gt;</span>
+</span></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+<p>If you need custom serialization for your data, you can provide a<br><code>serializeData</code> method on your view. It must return a valid JSON<br>object, as if you had called <code>.toJSON</code> on a model or collection.</p>
+<pre><code class="lang-js">Backbone.Marionette.ItemView.extend({
+  serializeData: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span></span>{
+    <span class="hljs-keyword">return</span> {
+      <span class="hljs-string">"some attribute"</span>: <span class="hljs-string">"some value"</span>
+    }
+  }
+});
+</code></pre>
+<h2><a name="organizing-ui-elements" class="anchor" href="#organizing-ui-elements"><span class="header-link"></span></a>Organizing UI Elements</h2><p>As documented in <a href="./marionette.view.md">Marionette.View</a>, you can specify a <code>ui</code> hash in your <code>view</code> that<br>maps UI elements by their jQuery selectors. This is especially useful if you access the<br>same UI element more than once in your view&#39;s code. Instead of<br>duplicating the selector, you can simply reference it by<br><code>this.ui.elementName</code>:</p>
+<p>You can also use the ui hash values from within events and trigger keys using the <code>&quot;@ui.elementName&quot;</code>: syntax</p>
+<pre><code class="lang-js">Backbone.Marionette.ItemView.extend({
+  tagName: <span class="hljs-string">"tr"</span>,
+
+  ui: {
+    checkbox: <span class="hljs-string">"input[type=checkbox]"</span>
+  },
+
+  onRender: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
+    <span class="hljs-keyword">if</span> (<span class="hljs-keyword">this</span>.model.get(<span class="hljs-string">'selected'</span>)) {
+      <span class="hljs-keyword">this</span>.ui.checkbox.addClass(<span class="hljs-string">'checked'</span>);
+    }
+  }
+});
+</code></pre>
+<h2><a name="modelevents-and-collectionevents" class="anchor" href="#modelevents-and-collectionevents"><span class="header-link"></span></a>modelEvents and collectionEvents</h2><p>ItemViews can bind directly to model events and collection events<br>in a declarative manner:</p>
+<pre><code class="lang-js">Marionette.ItemView.extend({
+  modelEvents: {
+    <span class="hljs-string">"change"</span>: <span class="hljs-string">"modelChanged"</span>
+  },
+
+  collectionEvents: {
+    <span class="hljs-string">"add"</span>: <span class="hljs-string">"modelAdded"</span>
+  }
+});
+</code></pre>
+<p>For more information, see the <a href="./marionette.view.md">Marionette.View</a> documentation.</p>
+
+      </div>
+    </div>
+  </body>
+  <script src="../../js/docs.js" type="text/javascript"></script>
+</html>

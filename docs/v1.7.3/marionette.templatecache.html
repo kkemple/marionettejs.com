@@ -1,0 +1,423 @@
+<html>
+  <head>
+    <title>marionette.templatecache - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/docs.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select id="version-dropdown">
+          
+            
+              <option value="v2.3.0">v2.3.0</option>
+            
+          
+            
+              <option value="v2.3.0-pre">v2.3.0-pre</option>
+            
+          
+            
+              <option value="v2.2.2">v2.2.2</option>
+            
+          
+            
+              <option value="v2.2.1">v2.2.1</option>
+            
+          
+            
+              <option value="v2.2.0">v2.2.0</option>
+            
+          
+            
+              <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+            
+          
+            
+              <option value="v2.2.0-pre">v2.2.0-pre</option>
+            
+          
+            
+              <option value="v2.1.0">v2.1.0</option>
+            
+          
+            
+              <option value="v2.1.0-pre">v2.1.0-pre</option>
+            
+          
+            
+              <option value="v2.0.3">v2.0.3</option>
+            
+          
+            
+              <option value="v2.0.2">v2.0.2</option>
+            
+          
+            
+              <option value="v2.0.1">v2.0.1</option>
+            
+          
+            
+              <option value="v2.0.0">v2.0.0</option>
+            
+          
+            
+              <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+            
+          
+            
+              <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+            
+          
+            
+              <option value="v1.8.8">v1.8.8</option>
+            
+          
+            
+              <option value="v1.8.7">v1.8.7</option>
+            
+          
+            
+              <option value="v1.8.6">v1.8.6</option>
+            
+          
+            
+              <option value="v1.8.5">v1.8.5</option>
+            
+          
+            
+              <option value="v1.8.4">v1.8.4</option>
+            
+          
+            
+              <option value="v1.8.3">v1.8.3</option>
+            
+          
+            
+              <option value="v1.8.2">v1.8.2</option>
+            
+          
+            
+              <option value="v1.8.1">v1.8.1</option>
+            
+          
+            
+              <option value="v1.8.0">v1.8.0</option>
+            
+          
+            
+              <option value="v1.7.4">v1.7.4</option>
+            
+          
+            
+              <option value="v1.7.3" selected="selected">v1.7.3</option>
+            
+          
+            
+              <option value="v1.7.2">v1.7.2</option>
+            
+          
+            
+              <option value="v1.7.1">v1.7.1</option>
+            
+          
+            
+              <option value="v1.7.0">v1.7.0</option>
+            
+          
+            
+              <option value="v1.6.4">v1.6.4</option>
+            
+          
+            
+              <option value="v1.6.3">v1.6.3</option>
+            
+          
+            
+              <option value="v1.6.2">v1.6.2</option>
+            
+          
+            
+              <option value="v1.6.1">v1.6.1</option>
+            
+          
+            
+              <option value="v1.6.0">v1.6.0</option>
+            
+          
+            
+              <option value="v1.5.1">v1.5.1</option>
+            
+          
+            
+              <option value="v1.5.0">v1.5.0</option>
+            
+          
+            
+              <option value="v1.4.1">v1.4.1</option>
+            
+          
+            
+              <option value="v1.4.0">v1.4.0</option>
+            
+          
+            
+              <option value="v1.4.0-beta">v1.4.0-beta</option>
+            
+          
+            
+              <option value="v1.3.0">v1.3.0</option>
+            
+          
+            
+              <option value="v1.2.3">v1.2.3</option>
+            
+          
+            
+              <option value="v1.2.2">v1.2.2</option>
+            
+          
+            
+              <option value="v1.2.1">v1.2.1</option>
+            
+          
+            
+              <option value="v1.2.0">v1.2.0</option>
+            
+          
+            
+              <option value="v1.1.0">v1.1.0</option>
+            
+          
+            
+              <option value="v1.0.4">v1.0.4</option>
+            
+          
+            
+              <option value="v1.0.3">v1.0.3</option>
+            
+          
+            
+              <option value="v1.0.2">v1.0.2</option>
+            
+          
+            
+              <option value="v1.0.1">v1.0.1</option>
+            
+          
+            
+              <option value="v1.0.0">v1.0.0</option>
+            
+          
+            
+              <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+            
+          
+            
+              <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+            
+          
+            
+              <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+            
+          
+            
+              <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+            
+          
+            
+              <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+            
+          
+            
+              <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+            
+          
+            
+              <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+            
+          
+            
+              <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+            
+          
+            
+              <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+            
+          
+            
+              <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+            
+          
+            
+              <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+            
+          
+            
+              <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+            
+          
+            
+              <option value="v0.10.2">v0.10.2</option>
+            
+          
+            
+              <option value="v0.10.1">v0.10.1</option>
+            
+          
+            
+              <option value="v0.10.0">v0.10.0</option>
+            
+          
+            
+              <option value="v0.9.13">v0.9.13</option>
+            
+          
+            
+              <option value="v0.9.12">v0.9.12</option>
+            
+          
+            
+              <option value="v0.9.11">v0.9.11</option>
+            
+          
+            
+              <option value="v0.9.10">v0.9.10</option>
+            
+          
+            
+              <option value="v0.9.9">v0.9.9</option>
+            
+          
+            
+              <option value="v0.9.8">v0.9.8</option>
+            
+          
+            
+              <option value="v0.9.7">v0.9.7</option>
+            
+          
+            
+              <option value="v0.9.6">v0.9.6</option>
+            
+          
+            
+              <option value="v0.9.5">v0.9.5</option>
+            
+          
+            
+              <option value="v0.9.4">v0.9.4</option>
+            
+          
+            
+              <option value="v0.9.3">v0.9.3</option>
+            
+          
+            
+              <option value="v0.9.2">v0.9.2</option>
+            
+          
+            
+              <option value="v0.9.1">v0.9.1</option>
+            
+          
+            
+              <option value="v0.9.0">v0.9.0</option>
+            
+          
+        </select>
+        <nav>
+          
+            <a href="/docs/v1.7.3/marionette.application.html">marionette.application</a>
+          
+            <a href="/docs/v1.7.3/marionette.application.module.html">marionette.application.module</a>
+          
+            <a href="/docs/v1.7.3/marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="/docs/v1.7.3/marionette.behavior.html">marionette.behavior</a>
+          
+            <a href="/docs/v1.7.3/marionette.behaviors.html">marionette.behaviors</a>
+          
+            <a href="/docs/v1.7.3/marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="/docs/v1.7.3/marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="/docs/v1.7.3/marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="/docs/v1.7.3/marionette.configuration.html">marionette.configuration</a>
+          
+            <a href="/docs/v1.7.3/marionette.controller.html">marionette.controller</a>
+          
+            <a href="/docs/v1.7.3/marionette.functions.html">marionette.functions</a>
+          
+            <a href="/docs/v1.7.3/marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="/docs/v1.7.3/marionette.layout.html">marionette.layout</a>
+          
+            <a href="/docs/v1.7.3/marionette.region.html">marionette.region</a>
+          
+            <a href="/docs/v1.7.3/marionette.regionmanager.html">marionette.regionmanager</a>
+          
+            <a href="/docs/v1.7.3/marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="/docs/v1.7.3/marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="/docs/v1.7.3/marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <h1><a name="marionette-templatecache" class="anchor" href="#marionette-templatecache"><span class="header-link"></span></a>Marionette.TemplateCache</h1><p>The <code>TemplateCache</code> provides a cache for retrieving templates<br>from script blocks in your HTML. This will improve<br>the speed of subsequent calls to get a template.</p>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#basic-usage">Basic Usage</a></li>
+<li><a href="#clear-items-from-cache">Clear Items From cache</a></li>
+<li><a href="#customizing-template-access">Customizing Template Access</a></li>
+<li><a href="#override-template-retrieval">Override Template Retrieval</a></li>
+<li><a href="#override-template-compilation">Override Template Compilation</a></li>
+</ul>
+<h2><a name="basic-usage" class="anchor" href="#basic-usage"><span class="header-link"></span></a>Basic Usage</h2><p>To use the <code>TemplateCache</code>, call the <code>get</code> method on TemplateCache directly.<br>Internally, instances of the TemplateCache type will be created and stored<br>but you do not have to manually create these instances yourself. <code>get</code> will<br>return a compiled template function.</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> template = Backbone.Marionette.TemplateCache.get(<span class="hljs-string">"#my-template"</span>);
+<span class="hljs-comment">// use the template</span>
+template({param1:<span class="hljs-string">'value1'</span>, paramN:<span class="hljs-string">'valueN'</span>});
+</code></pre>
+<p>Making multiple calls to get the same template will retrieve the<br>template from the cache on subsequence calls.</p>
+<h3><a name="clear-items-from-cache" class="anchor" href="#clear-items-from-cache"><span class="header-link"></span></a>Clear Items From cache</h3><p>You can clear one or more, or all items from the cache using the<br><code>clear</code> method. Clearing a template from the cache will force it<br>to re-load from the DOM (via the <code>loadTemplate</code><br>function which can be overridden, see below) the next time it is retrieved.</p>
+<p>If you do not specify any parameters, all items will be cleared<br>from the cache:</p>
+<pre><code class="lang-js">Backbone.Marionette.TemplateCache.get(<span class="hljs-string">"#my-template"</span>);
+Backbone.Marionette.TemplateCache.get(<span class="hljs-string">"#this-template"</span>);
+Backbone.Marionette.TemplateCache.get(<span class="hljs-string">"#that-template"</span>);
+
+<span class="hljs-comment">// clear all templates from the cache</span>
+Backbone.Marionette.TemplateCache.clear()
+</code></pre>
+<p>If you specify one or more parameters, these parameters are assumed<br>to be the <code>templateId</code> used for loading / caching:</p>
+<pre><code class="lang-js">Backbone.Marionette.TemplateCache.get(<span class="hljs-string">"#my-template"</span>);
+Backbone.Marionette.TemplateCache.get(<span class="hljs-string">"#this-template"</span>);
+Backbone.Marionette.TemplateCache.get(<span class="hljs-string">"#that-template"</span>);
+
+<span class="hljs-comment">// clear 2 of 3 templates from the cache</span>
+Backbone.Marionette.TemplateCache.clear(<span class="hljs-string">"#my-template"</span>, <span class="hljs-string">"#this-template"</span>)
+</code></pre>
+<h2><a name="customizing-template-access" class="anchor" href="#customizing-template-access"><span class="header-link"></span></a>Customizing Template Access</h2><p>If you want to use an alternate template engine while<br>still taking advantage of the template caching functionality, or want to customize<br>how templates are stored and retrieved, you will need to customize the<br><code>TemplateCache object</code>. The default operation of <code>TemplateCache</code>, is to<br>retrieve templates from the DOM based on the containing element&#39;s id<br>attribute, and compile the html in that element with the underscore.js<br><code>template</code> function.</p>
+<h3><a name="override-template-retrieval" class="anchor" href="#override-template-retrieval"><span class="header-link"></span></a>Override Template Retrieval</h3><p>The default template retrieval is to select the template contents<br>from the DOM using jQuery. If you wish to change the way this<br>works, you can override the <code>loadTemplate</code> method on the<br><code>TemplateCache</code> object.</p>
+<pre><code class="lang-js">Backbone.Marionette.TemplateCache.prototype.loadTemplate = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(templateId)</span></span>{
+  <span class="hljs-comment">// load your template here, returning the data needed for the compileTemplate</span>
+  <span class="hljs-comment">// function. For example, you have a function that creates templates based on the</span>
+  <span class="hljs-comment">// value of templateId</span>
+  <span class="hljs-keyword">var</span> myTemplate = myTemplateFunc(templateId);
+
+  <span class="hljs-comment">// send the template back</span>
+  <span class="hljs-keyword">return</span> myTemplate;
+}
+</code></pre>
+<h3><a name="override-template-compilation" class="anchor" href="#override-template-compilation"><span class="header-link"></span></a>Override Template Compilation</h3><p>The default template compilation passes the results from<br><code>loadTemplate</code> to the <code>compileTemplate</code> function, which returns<br>an underscore.js compiled template function. When overriding <code>compileTemplate</code><br>remember that it must return a function which takes an object of parameters and values<br>and returns a formatted HTML string.</p>
+<pre><code class="lang-js">Backbone.Marionette.TemplateCache.prototype.compileTemplate = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(rawTemplate)</span> </span>{
+  <span class="hljs-comment">// use Handlebars.js to compile the template</span>
+  <span class="hljs-keyword">return</span> Handlebars.compile(rawTemplate);
+}
+</code></pre>
+
+      </div>
+    </div>
+  </body>
+  <script src="../../js/docs.js" type="text/javascript"></script>
+</html>

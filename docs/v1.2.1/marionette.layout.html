@@ -1,0 +1,509 @@
+<html>
+  <head>
+    <title>marionette.layout - Marionette.js Docs</title>
+    <link rel="stylesheet" href="../../styles/docs.css">
+  </head>
+  <body>
+    <div class="docs">
+      <div class="docs__sidebar">
+        <select id="version-dropdown">
+          
+            
+              <option value="v2.3.0">v2.3.0</option>
+            
+          
+            
+              <option value="v2.3.0-pre">v2.3.0-pre</option>
+            
+          
+            
+              <option value="v2.2.2">v2.2.2</option>
+            
+          
+            
+              <option value="v2.2.1">v2.2.1</option>
+            
+          
+            
+              <option value="v2.2.0">v2.2.0</option>
+            
+          
+            
+              <option value="v2.2.0-pre.2">v2.2.0-pre.2</option>
+            
+          
+            
+              <option value="v2.2.0-pre">v2.2.0-pre</option>
+            
+          
+            
+              <option value="v2.1.0">v2.1.0</option>
+            
+          
+            
+              <option value="v2.1.0-pre">v2.1.0-pre</option>
+            
+          
+            
+              <option value="v2.0.3">v2.0.3</option>
+            
+          
+            
+              <option value="v2.0.2">v2.0.2</option>
+            
+          
+            
+              <option value="v2.0.1">v2.0.1</option>
+            
+          
+            
+              <option value="v2.0.0">v2.0.0</option>
+            
+          
+            
+              <option value="v2.0.0-pre.2">v2.0.0-pre.2</option>
+            
+          
+            
+              <option value="v2.0.0-pre.1">v2.0.0-pre.1</option>
+            
+          
+            
+              <option value="v1.8.8">v1.8.8</option>
+            
+          
+            
+              <option value="v1.8.7">v1.8.7</option>
+            
+          
+            
+              <option value="v1.8.6">v1.8.6</option>
+            
+          
+            
+              <option value="v1.8.5">v1.8.5</option>
+            
+          
+            
+              <option value="v1.8.4">v1.8.4</option>
+            
+          
+            
+              <option value="v1.8.3">v1.8.3</option>
+            
+          
+            
+              <option value="v1.8.2">v1.8.2</option>
+            
+          
+            
+              <option value="v1.8.1">v1.8.1</option>
+            
+          
+            
+              <option value="v1.8.0">v1.8.0</option>
+            
+          
+            
+              <option value="v1.7.4">v1.7.4</option>
+            
+          
+            
+              <option value="v1.7.3">v1.7.3</option>
+            
+          
+            
+              <option value="v1.7.2">v1.7.2</option>
+            
+          
+            
+              <option value="v1.7.1">v1.7.1</option>
+            
+          
+            
+              <option value="v1.7.0">v1.7.0</option>
+            
+          
+            
+              <option value="v1.6.4">v1.6.4</option>
+            
+          
+            
+              <option value="v1.6.3">v1.6.3</option>
+            
+          
+            
+              <option value="v1.6.2">v1.6.2</option>
+            
+          
+            
+              <option value="v1.6.1">v1.6.1</option>
+            
+          
+            
+              <option value="v1.6.0">v1.6.0</option>
+            
+          
+            
+              <option value="v1.5.1">v1.5.1</option>
+            
+          
+            
+              <option value="v1.5.0">v1.5.0</option>
+            
+          
+            
+              <option value="v1.4.1">v1.4.1</option>
+            
+          
+            
+              <option value="v1.4.0">v1.4.0</option>
+            
+          
+            
+              <option value="v1.4.0-beta">v1.4.0-beta</option>
+            
+          
+            
+              <option value="v1.3.0">v1.3.0</option>
+            
+          
+            
+              <option value="v1.2.3">v1.2.3</option>
+            
+          
+            
+              <option value="v1.2.2">v1.2.2</option>
+            
+          
+            
+              <option value="v1.2.1" selected="selected">v1.2.1</option>
+            
+          
+            
+              <option value="v1.2.0">v1.2.0</option>
+            
+          
+            
+              <option value="v1.1.0">v1.1.0</option>
+            
+          
+            
+              <option value="v1.0.4">v1.0.4</option>
+            
+          
+            
+              <option value="v1.0.3">v1.0.3</option>
+            
+          
+            
+              <option value="v1.0.2">v1.0.2</option>
+            
+          
+            
+              <option value="v1.0.1">v1.0.1</option>
+            
+          
+            
+              <option value="v1.0.0">v1.0.0</option>
+            
+          
+            
+              <option value="v1.0.0-rc6">v1.0.0-rc6</option>
+            
+          
+            
+              <option value="v1.0.0-rc5">v1.0.0-rc5</option>
+            
+          
+            
+              <option value="v1.0.0-rc4">v1.0.0-rc4</option>
+            
+          
+            
+              <option value="v1.0.0-rc3">v1.0.0-rc3</option>
+            
+          
+            
+              <option value="v1.0.0-rc2">v1.0.0-rc2</option>
+            
+          
+            
+              <option value="v1.0.0-rc1">v1.0.0-rc1</option>
+            
+          
+            
+              <option value="v1.0.0-beta6">v1.0.0-beta6</option>
+            
+          
+            
+              <option value="v1.0.0-beta5">v1.0.0-beta5</option>
+            
+          
+            
+              <option value="v1.0.0-beta4">v1.0.0-beta4</option>
+            
+          
+            
+              <option value="v1.0.0-beta3">v1.0.0-beta3</option>
+            
+          
+            
+              <option value="v1.0.0-beta2">v1.0.0-beta2</option>
+            
+          
+            
+              <option value="v1.0.0-beta1">v1.0.0-beta1</option>
+            
+          
+            
+              <option value="v0.10.2">v0.10.2</option>
+            
+          
+            
+              <option value="v0.10.1">v0.10.1</option>
+            
+          
+            
+              <option value="v0.10.0">v0.10.0</option>
+            
+          
+            
+              <option value="v0.9.13">v0.9.13</option>
+            
+          
+            
+              <option value="v0.9.12">v0.9.12</option>
+            
+          
+            
+              <option value="v0.9.11">v0.9.11</option>
+            
+          
+            
+              <option value="v0.9.10">v0.9.10</option>
+            
+          
+            
+              <option value="v0.9.9">v0.9.9</option>
+            
+          
+            
+              <option value="v0.9.8">v0.9.8</option>
+            
+          
+            
+              <option value="v0.9.7">v0.9.7</option>
+            
+          
+            
+              <option value="v0.9.6">v0.9.6</option>
+            
+          
+            
+              <option value="v0.9.5">v0.9.5</option>
+            
+          
+            
+              <option value="v0.9.4">v0.9.4</option>
+            
+          
+            
+              <option value="v0.9.3">v0.9.3</option>
+            
+          
+            
+              <option value="v0.9.2">v0.9.2</option>
+            
+          
+            
+              <option value="v0.9.1">v0.9.1</option>
+            
+          
+            
+              <option value="v0.9.0">v0.9.0</option>
+            
+          
+        </select>
+        <nav>
+          
+            <a href="/docs/v1.2.1/marionette.application.html">marionette.application</a>
+          
+            <a href="/docs/v1.2.1/marionette.application.module.html">marionette.application.module</a>
+          
+            <a href="/docs/v1.2.1/marionette.approuter.html">marionette.approuter</a>
+          
+            <a href="/docs/v1.2.1/marionette.callbacks.html">marionette.callbacks</a>
+          
+            <a href="/docs/v1.2.1/marionette.collectionview.html">marionette.collectionview</a>
+          
+            <a href="/docs/v1.2.1/marionette.commands.html">marionette.commands</a>
+          
+            <a href="/docs/v1.2.1/marionette.compositeview.html">marionette.compositeview</a>
+          
+            <a href="/docs/v1.2.1/marionette.configuration.html">marionette.configuration</a>
+          
+            <a href="/docs/v1.2.1/marionette.controller.html">marionette.controller</a>
+          
+            <a href="/docs/v1.2.1/marionette.functions.html">marionette.functions</a>
+          
+            <a href="/docs/v1.2.1/marionette.itemview.html">marionette.itemview</a>
+          
+            <a href="/docs/v1.2.1/marionette.layout.html">marionette.layout</a>
+          
+            <a href="/docs/v1.2.1/marionette.region.html">marionette.region</a>
+          
+            <a href="/docs/v1.2.1/marionette.regionmanager.html">marionette.regionmanager</a>
+          
+            <a href="/docs/v1.2.1/marionette.renderer.html">marionette.renderer</a>
+          
+            <a href="/docs/v1.2.1/marionette.requestresponse.html">marionette.requestresponse</a>
+          
+            <a href="/docs/v1.2.1/marionette.templatecache.html">marionette.templatecache</a>
+          
+            <a href="/docs/v1.2.1/marionette.view.html">marionette.view</a>
+          
+        </nav>
+      </div>
+      <div class="docs__content">
+        <h1><a name="marionette-layout" class="anchor" href="#marionette-layout"><span class="header-link"></span></a>Marionette.Layout</h1><p>A <code>Layout</code> is a hybrid of an <code>ItemView</code> and a collection of <code>Region</code> objects. They<br>are ideal for rendering application layouts with multiple sub-regions<br>managed by specified region managers.</p>
+<p>A layout can also act as a composite-view to aggregate multiple<br>views and sub-application areas of the screen allowing applications to<br>attach multiple region managers to dynamically rendered HTML.</p>
+<p>You can create complex views by nesting layout managers within <code>Regions</code>.</p>
+<p>For a more in-depth discussion on Layouts, see the blog post<br><a href="http://lostechies.com/derickbailey/2012/03/22/managing-layouts-and-nested-views-with-backbone-marionette/">Manage Layouts And Nested Views With Backbone.Marionette</a></p>
+<p>Please see<br><a href="marionette.itemview.md">the Marionette.ItemView documentation</a><br>for more information on available features and functionality.</p>
+<p>Additionally, interactions with Marionette.Region<br>will provide features such as <code>onShow</code> callbacks, etc. Please see<br><a href="marionette.region.md">the Region documentation</a> for more information.</p>
+<h2><a name="documentation-index" class="anchor" href="#documentation-index"><span class="header-link"></span></a>Documentation Index</h2><ul>
+<li><a href="#basic-usage">Basic Usage</a></li>
+<li><a href="#region-availability">Region Availability</a></li>
+<li><a href="#re-rendering-a-layout">Re-Rendering A Layout</a><ul>
+<li><a href="#avoid-re-rendering-the-entire-layout">Avoid Re-Rendering The Entire Layout</a></li>
+</ul>
+</li>
+<li><a href="#nested-layouts-and-views">Nested Layouts And Views</a></li>
+<li><a href="#closing-a-layout">Closing A Layout</a></li>
+<li><a href="#custom-region-type">Custom Region Type</a></li>
+</ul>
+<h2><a name="basic-usage" class="anchor" href="#basic-usage"><span class="header-link"></span></a>Basic Usage</h2><p>The <code>Layout</code> extends directly from <code>ItemView</code> and adds the ability<br>to specify <code>regions</code> which become <code>Region</code> instances that are attached<br>to the layout.</p>
+<pre><code class="lang-html"><span class="hljs-tag">&lt;<span class="hljs-title">script</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"layout-template"</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text/template"</span>&gt;</span><span class="javascript">
+  &lt;section&gt;
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-title">navigation</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"menu"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-title">navigation</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">article</span> <span class="hljs-attribute">id</span>=<span class="hljs-value">"content"</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-title">article</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">section</span>&gt;</span>
+</span></span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+</code></pre>
+<pre><code class="lang-js">AppLayout = Backbone.Marionette.Layout.extend({
+  template: <span class="hljs-string">"#layout-template"</span>,
+
+  regions: {
+    menu: <span class="hljs-string">"#menu"</span>,
+    content: <span class="hljs-string">"#content"</span>
+  }
+});
+
+<span class="hljs-keyword">var</span> layout = <span class="hljs-keyword">new</span> AppLayout();
+layout.render();
+</code></pre>
+<p>Once you&#39;ve rendered the layout, you now have direct access<br>to all of the specified regions as region managers.</p>
+<pre><code class="lang-js">layout.menu.show(<span class="hljs-keyword">new</span> MenuView());
+
+layout.content.show(<span class="hljs-keyword">new</span> MainContentView());
+</code></pre>
+<h3><a name="specifying-regions-as-a-function" class="anchor" href="#specifying-regions-as-a-function"><span class="header-link"></span></a>Specifying Regions As A Function</h3><p>Regions can be specified on a Layout using a function that returns<br>an object with the region definitions. The returned object follow the<br>same rules for defining a region, as outlined above.</p>
+<pre><code class="lang-js">Marionette.Layout.extend({
+  <span class="hljs-comment">// ...</span>
+
+  regions: <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(options)</span></span>{
+    <span class="hljs-keyword">return</span> {
+      fooRegion: <span class="hljs-string">"#foo-element"</span>
+    };
+  },
+
+  <span class="hljs-comment">// ...</span>
+});
+</code></pre>
+<p>Note that the function recieves the view&#39;s <code>options</code> arguments that<br>were passed in to the view&#39;s constructor. <code>this.options</code> is not yet<br>available when the regions are first initialized, so the options<br>must be accessed through this parameter.</p>
+<h2><a name="region-availability" class="anchor" href="#region-availability"><span class="header-link"></span></a>Region Availability</h2><p>Any defined regions within a layout will be available to the<br>layout or any calling code immediately after instantiating the<br>layout. This allows a layout to be attached to an existing<br>DOM element in an HTML page, without the need to call a render<br>method or anything else, to create the regions.</p>
+<p>However, a region will only be able to populate itself if the<br>layout has access to the elements specified within the region<br>definitions. That is, if your view has not yet rendered, your<br>regions may not be able to find the element that you&#39;ve<br>specified for them to manage. In that scenario, using the<br>region will result in no changes to the DOM.</p>
+<h2><a name="re-rendering-a-layout" class="anchor" href="#re-rendering-a-layout"><span class="header-link"></span></a>Re-Rendering A Layout</h2><p>A layout can be rendered as many times as needed, but renders<br>after the first one behave differently than the initial render.</p>
+<p>The first time a layout is rendered, nothing special happens. It just<br>delegates to the <code>ItemView</code> prototype to do the render. After the<br>first render has happened, though, the render function is modified to<br>account for re-rendering with regions in the layout.</p>
+<p>After the first render, all subsequent renders will force every<br>region to close by calling the <code>close</code> method on them. This will<br>force every view in the region, and sub-views if any, to be closed<br>as well. Once the regions have been closed, the regions will be<br>reset so that they are no longer referencing the element of the previous<br>layout render. </p>
+<p>Then after the Layout is finished re-rendering itself,<br>showing a view in the layout&#39;s regions will cause the regions to attach<br>themselves to the new elements in the layout.</p>
+<h3><a name="avoid-re-rendering-the-entire-layout" class="anchor" href="#avoid-re-rendering-the-entire-layout"><span class="header-link"></span></a>Avoid Re-Rendering The Entire Layout</h3><p>There are times when re-rendering the entire layout is necessary. However,<br>due to the behavior described above, this can cause a large amount of<br>work to be needed in order to fully restore the layout and all of the<br>views that the layout is displaying.</p>
+<p>Therefore, it is suggested that you avoid re-rendering the entire<br>layout unless absolutely necessary. Instead, if you are binding the<br>layout&#39;s template to a model and need to update portions of the layout,<br>you should listen to the model&#39;s &quot;change&quot; events and only update the<br>neccesary DOM elements.</p>
+<h2><a name="nested-layouts-and-views" class="anchor" href="#nested-layouts-and-views"><span class="header-link"></span></a>Nested Layouts And Views</h2><p>Since the <code>Layout</code> extends directly from <code>ItemView</code>, it<br>has all of the core functionality of an item view. This includes<br>the methods necessary to be shown within an existing region manager.</p>
+<pre><code class="lang-js">MyApp = <span class="hljs-keyword">new</span> Backbone.Marionette.Application();
+MyApp.addRegions({
+  mainRegion: <span class="hljs-string">"#main"</span>
+});
+
+<span class="hljs-keyword">var</span> layout = <span class="hljs-keyword">new</span> AppLayout();
+MyApp.mainRegion.show(layout);
+
+layout.show(<span class="hljs-keyword">new</span> MenuView());
+</code></pre>
+<p>You can nest layouts into region managers as deeply as you want.<br>This provides for a well organized, nested view structure.</p>
+<h2><a name="closing-a-layout" class="anchor" href="#closing-a-layout"><span class="header-link"></span></a>Closing A Layout</h2><p>When you are finished with a layout, you can call the<br><code>close</code> method on it. This will ensure that all of the region managers<br>within the layout are closed correctly, which in turn<br>ensures all of the views shown within the regions are closed correctly.</p>
+<p>If you are showing a layout within a parent region manager, replacing<br>the layout with another view or another layout will close the current<br>one, the same it will close a view.</p>
+<p>All of this ensures that layouts and the views that they<br>contain are cleaned up correctly.</p>
+<h2><a name="custom-region-type" class="anchor" href="#custom-region-type"><span class="header-link"></span></a>Custom Region Type</h2><p>If you have the need to replace the <code>Region</code> with a region class of<br>your own implementation, you can specify an alternate class to use<br>with the <code>regionType</code> propery of the <code>Layout</code>.</p>
+<pre><code class="lang-js">MyLayout = Backbone.Marionette.Layout.extend({
+  regionType: SomeCustomRegion 
+});
+</code></pre>
+<p>You can also specify custom <code>Region</code> classes for each <code>region</code>:</p>
+<pre><code class="lang-js">AppLayout = Backbone.Marionette.Layout.extend({
+  template: <span class="hljs-string">"#layout-template"</span>,
+
+  regionType: SomeDefaultCustomRegion,
+
+  regions: {
+    menu: {
+      selector: <span class="hljs-string">"#menu"</span>,
+      regionType: CustomRegionTypeReference
+    },
+    content: {
+      selector: <span class="hljs-string">"#content"</span>,
+      regionType: CustomRegionType2Reference
+    }
+  }
+});
+</code></pre>
+<h2><a name="adding-and-removing-regions" class="anchor" href="#adding-and-removing-regions"><span class="header-link"></span></a>Adding And Removing Regions</h2><p>Regions can be added and removed as needed, in a<br>Layout instance. Use the following methods:</p>
+<ul>
+<li><code>addRegion</code></li>
+<li><code>addRegions</code></li>
+<li><code>removeRegion</code></li>
+</ul>
+<p>addRegion:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> layout = <span class="hljs-keyword">new</span> MyLayout();
+
+<span class="hljs-comment">// ...</span>
+
+layout.addRegion(<span class="hljs-string">"foo"</span>, <span class="hljs-string">"#foo"</span>);
+layout.foo.show(<span class="hljs-keyword">new</span> someView());
+</code></pre>
+<p>addRegions: </p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> layout = <span class="hljs-keyword">new</span> MyLayout();
+
+<span class="hljs-comment">// ...</span>
+
+layout.addRegions({
+  foo: <span class="hljs-string">"#foo"</span>,
+  bar: <span class="hljs-string">"#bar"</span>
+});
+</code></pre>
+<p>removeRegions:</p>
+<pre><code class="lang-js"><span class="hljs-keyword">var</span> layout = <span class="hljs-keyword">new</span> MyLayout();
+
+<span class="hljs-comment">// ...</span>
+
+layout.removeRegion(<span class="hljs-string">"foo"</span>);
+</code></pre>
+<p>Any region can be removed, whether it was defined<br>in the <code>regions</code> attribute of the region definition,<br>or added later.</p>
+<p>For more information on using these methods, see<br>the <code>regionManager</code> documentation.</p>
+
+      </div>
+    </div>
+  </body>
+  <script src="../../js/docs.js" type="text/javascript"></script>
+</html>
